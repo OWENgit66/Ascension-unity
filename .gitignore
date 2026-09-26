@@ -1,0 +1,27 @@
+# Unity regenerates these
+/[Uu]nityProject/[Ll]ibrary/
+/[Uu]nityProject/[Tt]emp/
+/[Uu]nityProject/[Oo]bj/
+/[Uu]nityProject/[Ll]ogs/
+/[Uu]nityProject/[Uu]ser[Ss]ettings/
+/[Uu]nityProject/[Bb]uild*/
+/[Bb]uilds/
+/[Uu]nityProject/.vs/
+/[Uu]nityProject/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+__pycache__/
+/[Uu]nityProject/[Mm]emoryCaptures/
+/[Uu]nityProject/[Rr]ecordings/
+# Keep Assets and every .meta, Packages manifest/lock, ProjectSettings and evidence

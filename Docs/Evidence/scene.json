@@ -1,0 +1,11 @@
+{
+    "scene": "Assets/Scenes/Ascension.unity",
+    "compiled": true,
+    "missingScripts": 0,
+    "gameObjects": 3,
+    "dependencies": [
+        "Assets/Scenes/Ascension.unity",
+        "Assets/Ascension/Mechanic/AscensionRuntime.cs",
+        "Assets/Ascension/Presentation/AscensionView.cs"
+    ]
+}
