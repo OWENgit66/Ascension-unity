@@ -1,0 +1,25 @@
+{
+  "version": "1.1",
+  "status": "passed",
+  "project": "E:/AI项目/Unity/Ascension",
+  "formalDurations": [35, 40, 45, 60],
+  "fastDurations": [10, 12, 14, 54],
+  "build": {"file": "build.json", "errors": 0, "warnings": 0, "seconds": 23.9044385},
+  "modelCoverage": {"file": "v11-model-checks.json", "runs": 12, "isSurvivalEvidence": false},
+  "nativeResults": [
+    "v11-fast-water-E-1790412850089174300-result.json",
+    "v11-fast-circle-B-1790413010932707300-result.json",
+    "v11-fast-water-probe-E-1790413145399457300-result.json",
+    "v11-formal-E-1790413279292279500-result.json"
+  ],
+  "formalWin": {"seconds": 180.000412, "hp": 87, "qi": 8, "minQi": 0, "dash": 27, "shield": 6, "pickup": 37, "divineWaves": 9},
+  "formalPause": {"pausedSeconds": 10.516244, "resumedSeconds": 10.516244, "hp": 100, "qi": 80},
+  "formalLose": {"seconds": 19.503202, "hpSequence": [100, 82, 64, 46, 28, 10, 0]},
+  "formalRestart": {"hp": 100, "qi": 60, "stage": 1, "duration": 180, "keyboardShieldConfirmed": true},
+  "nativeWaterProbe": {"slow": 0.7, "shieldDoesNotCleanse": true, "dashWhileSlowed": true, "exitRestoresSpeed": true},
+  "nativeCaps": {"fire": 5, "water": 3, "ball": 3},
+  "nativeAuditCommand": "python Docs/Validation/audit_v11.py",
+  "humanBlindTest": "pending",
+  "limits": ["Native full survival runs use seed24130 and stone technique", "Finite safety sampling is not an exhaustive guarantee", "No human boredom/difficulty score claimed"],
+  "backup": "Original GameFactory project and v1.0 standalone source zip preserved"
+}

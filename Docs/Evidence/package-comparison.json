@@ -1,0 +1,97 @@
+[
+  {
+    "package": "com.unity.burst@1.8.24",
+    "filesChecked": 324,
+    "differences": []
+  },
+  {
+    "package": "com.unity.mathematics@1.2.6",
+    "filesChecked": 366,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.animation@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.audio@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.imgui@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.jsonserialize@1.0.0",
+    "filesChecked": 4,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.particlesystem@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.physics@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.terrain@1.0.0",
+    "filesChecked": 4,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.terrainphysics@1.0.0",
+    "filesChecked": 4,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.ui@1.0.0",
+    "filesChecked": 6,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.unitywebrequest@1.0.0",
+    "filesChecked": 4,
+    "differences": []
+  },
+  {
+    "package": "com.unity.modules.video@1.0.0",
+    "filesChecked": 4,
+    "differences": []
+  },
+  {
+    "package": "com.unity.render-pipelines.core@14.0.12",
+    "filesChecked": 1485,
+    "differences": []
+  },
+  {
+    "package": "com.unity.render-pipelines.universal-config@14.0.10",
+    "filesChecked": 22,
+    "differences": []
+  },
+  {
+    "package": "com.unity.render-pipelines.universal@14.0.12",
+    "filesChecked": 2899,
+    "differences": []
+  },
+  {
+    "package": "com.unity.searcher@4.9.2",
+    "filesChecked": 120,
+    "differences": []
+  },
+  {
+    "package": "com.unity.shadergraph@14.0.12",
+    "filesChecked": 4249,
+    "differences": []
+  },
+  {
+    "package": "com.unity.ugui@1.0.0",
+    "filesChecked": 695,
+    "differences": []
+  }
+]

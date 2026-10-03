@@ -1,0 +1,10 @@
+{
+  "keyDocumentationMissingLinks": [],
+  "runtimeOrBuildExternalPathReferences": [],
+  "unityProjectDirectories": [
+    "Assets",
+    "Packages",
+    "ProjectSettings"
+  ],
+  "hasSymlinks": false
+}

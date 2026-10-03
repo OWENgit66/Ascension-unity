@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "result": "Succeeded",
+    "output": "E:\\AI项目\\Unity\\Ascension\\Builds\\Windows\\Ascension.exe",
+    "unityVersion": "2022.3.62f3",
+    "errors": 0,
+    "warnings": 0,
+    "seconds": 5.189165,
+    "bytes": 87321838
+}

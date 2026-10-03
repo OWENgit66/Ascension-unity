@@ -1,0 +1,34 @@
+{
+  "project": "Ascension",
+  "version": "1.1",
+  "tasks": [{
+    "id": "V1.1",
+    "title": "V1.1 Gameplay Iteration",
+    "status": "done",
+    "scope": ["Formal 180s / Fast 90s", "Ball Lightning", "Fire clusters", "Wind + Lightning", "Water", "Balance and native playtest"],
+    "validation": {
+      "build": "Windows x64 Release; 0 errors, 0 warnings",
+      "model_checks": "12 Formal/Fast coverage runs passed (not survival evidence)",
+      "fast": "90s wins HP63 and HP100; circle lost at29.501s; water/shield/dash confirmed",
+      "formal_win": "180.0004s, HP87, Qi8, minQi0, Dash27, Shield6, pickups37, nine waves",
+      "lose_restart_pause": "Formal lost at19.503s; Restart restored HP100 Qi60; Pause/resume both10.516244s",
+      "evidence": "Docs/Evidence/v11-acceptance.json",
+      "human_blind_playtest": "pending; no fabricated human result"
+    }
+  }, {
+    "id": "V1.1-R1",
+    "title": "真人反馈第一轮：雷击预警、180秒默认、地图随机雷",
+    "status": "done",
+    "scope": ["warning before impact", "Formal180/Fast90", "Random Ground Lightning"],
+    "validation": {
+      "build": "Windows x64 Release; 0 errors, 0 warnings; v11-r1-build-final.log",
+      "model_checks": "12 coverage runs; 153 random warnings; 924 impact timing checks; not survival evidence",
+      "fast": "90.000824s Won; HP100 Qi0; Dash13 Shield2 pickups15; nine waves",
+      "formal_win": "180.003708s Won; HP65 Qi16 minQi0; Dash27 Shield8 pickups40; nine waves",
+      "formal_warning_audit": "122 impacts after 1.2028-1.4046s warning; 25 random warnings; no outside/overlapping random circles; 4 tracking locks held",
+      "lose_restart_pause": "Lost19.307619s; Restart HP100 Qi60 stage1 duration180; pause/resume both6.541381s",
+      "evidence": "Docs/Evidence/v11-r1-acceptance.json",
+      "human_retest": "pending; user feedback recorded, automated native tests are not human tests"
+    }
+  }]
+}
