@@ -1,0 +1,432 @@
+Mono path[0] = 'E:/AI项目/Unity/Ascension/Builds/Windows/Ascension_Data/Managed'
+Mono config path = 'E:/AI项目/Unity/Ascension/Builds/Windows/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path E:/AI项目/Unity/Ascension/Builds/Windows/Ascension_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     11995 MB
+    Driver:   32.0.15.9597
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.098 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+UnloadTime: 0.775100 ms
+[AscensionAsset] animation=CharacterArmature|Attack
+[AscensionAsset] animation=CharacterArmature|Attack2
+[AscensionAsset] animation=CharacterArmature|Death
+[AscensionAsset] animation=CharacterArmature|Idle
+[AscensionAsset] animation=CharacterArmature|Idle_Attacking
+[AscensionAsset] animation=CharacterArmature|PickUp
+[AscensionAsset] animation=CharacterArmature|RecieveHit
+[AscensionAsset] animation=CharacterArmature|RecieveHit_Attacking
+[AscensionAsset] animation=CharacterArmature|Roll
+[AscensionAsset] animation=CharacterArmature|Run
+[AscensionAsset] animation=CharacterArmature|Walk
+[AscensionAsset] cultivator triangles=1634 bindBounds=Center: (1.01, 146.67, 3.97), Extents: (49.27, 145.73, 25.75)
+[A3GameRuntime] Initialized worldId=ascension_whitebox
+[A3GameRuntime] Registered factory: Ascension.AscensionRuntime
+[A3GameRuntime] UDP receiver started on port 30131
+[AscensionAudio] samples=6144 peak=0.0000 rms=0.00000
+[AscensionAssetQA] liveFit height=1.95 source=Center: (0.03, 1.44, 0.04), Extents: (0.68, 1.52, 0.39) correction=0.6435072 pivot=(-0.02, -0.95, -0.04)
+[AscensionAssetQA] renderer=Monk enabled=True active=True worldBounds=Center: (0.00, 0.97, 0.00), Extents: (0.43, 0.97, 0.25) baked=Center: (0.02, -0.03, 0.93), Extents: (0.43, 0.25, 0.97) lossy=(51.48, 51.48, 64.35) root=(1.00, 1.00, 1.00) camera=(0.50, 0.46, 11.38)
+[A3GameRuntime] sync_session entity=independence-input controller=independence-controller result=ok
+[AscensionAudio] samples=919552 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=1880064 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=2842624 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=3801088 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=4759552 peak=0.0000 rms=0.00000
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":1,"t_monotonic_ms":55292,"event_type":"audio_triggered","event_key":"started","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:started"}
+[Ascension] started time=0.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":2,"t_monotonic_ms":55660,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=0.38 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":3,"t_monotonic_ms":57281,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=2.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":4,"t_monotonic_ms":58786,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=3.51 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=5722112 peak=0.2479 rms=0.00533
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":5,"t_monotonic_ms":60481,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=5.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":6,"t_monotonic_ms":61984,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=6.71 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":7,"t_monotonic_ms":63680,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=8.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":8,"t_monotonic_ms":65180,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=9.91 hp=100 qi=80 stage=1 shield=0
+[Ascension] paused time=10.27 hp=100 qi=80 stage=1 shield=0
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [2.0 KB-4.0 KB]: 16175 frames, [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 39 frames, [16.0 KB-32.0 KB]: 8 frames, [64.0 KB-128.0 KB]: 2 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.0 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.8 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 27]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 31
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 20]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 30]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 26]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 25]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 29]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 32
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 22]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 28]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 23]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 4.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 24]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 19]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 259 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 2216
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 16226 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 29.5 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 16226 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 21.3 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 16226 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 32 frames, [256.0 KB-0.5 MB]: 16194 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 261.2 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 8
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 16226 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 16225 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 120.1 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 16226 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 6.7 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 16226 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B

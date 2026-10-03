@@ -1,0 +1,1663 @@
+Mono path[0] = 'E:/AI项目/Unity/Ascension/Builds/Windows/Ascension_Data/Managed'
+Mono config path = 'E:/AI项目/Unity/Ascension/Builds/Windows/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path E:/AI项目/Unity/Ascension/Builds/Windows/Ascension_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27e0)
+    Vendor:   NVIDIA
+    VRAM:     11995 MB
+    Driver:   32.0.15.9597
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.092 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+UnloadTime: 0.629900 ms
+[AscensionAsset] animation=CharacterArmature|Attack
+[AscensionAsset] animation=CharacterArmature|Attack2
+[AscensionAsset] animation=CharacterArmature|Death
+[AscensionAsset] animation=CharacterArmature|Idle
+[AscensionAsset] animation=CharacterArmature|Idle_Attacking
+[AscensionAsset] animation=CharacterArmature|PickUp
+[AscensionAsset] animation=CharacterArmature|RecieveHit
+[AscensionAsset] animation=CharacterArmature|RecieveHit_Attacking
+[AscensionAsset] animation=CharacterArmature|Roll
+[AscensionAsset] animation=CharacterArmature|Run
+[AscensionAsset] animation=CharacterArmature|Walk
+[AscensionAsset] cultivator triangles=1634 bindBounds=Center: (1.01, 146.67, 3.97), Extents: (49.27, 145.73, 25.75)
+[A3GameRuntime] Initialized worldId=ascension_whitebox
+[A3GameRuntime] Registered factory: Ascension.AscensionRuntime
+[A3GameRuntime] UDP receiver started on port 30131
+[AscensionAudio] samples=6144 peak=0.0000 rms=0.00000
+[AscensionAssetQA] liveFit height=1.95 source=Center: (0.03, 1.44, 0.04), Extents: (0.68, 1.52, 0.39) correction=0.643498 pivot=(-0.02, -0.95, -0.04)
+[AscensionAssetQA] renderer=Monk enabled=True active=True worldBounds=Center: (0.00, 0.97, 0.00), Extents: (0.43, 0.97, 0.25) baked=Center: (0.02, -0.03, 0.93), Extents: (0.43, 0.25, 0.97) lossy=(51.48, 51.48, 64.35) root=(1.00, 1.00, 1.00) camera=(0.50, 0.46, 11.38)
+[AscensionAudio] samples=927744 peak=0.0000 rms=0.00000
+[A3GameRuntime] sync_session entity=independence-input controller=independence-controller result=ok
+[AscensionAudio] samples=1886208 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=2846720 peak=0.0000 rms=0.00000
+[AscensionAudio] samples=3807232 peak=0.0000 rms=0.00000
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":1,"t_monotonic_ms":46139,"event_type":"audio_triggered","event_key":"started","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:started"}
+[Ascension] started time=0.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":2,"t_monotonic_ms":46466,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=0.34 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":3,"t_monotonic_ms":48134,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=2.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":4,"t_monotonic_ms":49638,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=3.51 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=4767744 peak=0.1976 rms=0.00578
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":5,"t_monotonic_ms":51332,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=5.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":6,"t_monotonic_ms":52836,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=6.71 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":7,"t_monotonic_ms":54532,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=8.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":8,"t_monotonic_ms":56036,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=9.91 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":9,"t_monotonic_ms":57732,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=11.60 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":10,"t_monotonic_ms":59236,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=13.11 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=5728256 peak=0.1976 rms=0.01073
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":11,"t_monotonic_ms":60931,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=14.80 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":12,"t_monotonic_ms":62436,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=16.31 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":13,"t_monotonic_ms":64132,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=18.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":14,"t_monotonic_ms":65636,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=19.51 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":15,"t_monotonic_ms":67332,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=21.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":16,"t_monotonic_ms":68836,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=22.71 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=6690816 peak=0.1976 rms=0.01316
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":17,"t_monotonic_ms":70532,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=24.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":18,"t_monotonic_ms":72035,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=25.91 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":19,"t_monotonic_ms":73731,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=27.60 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":20,"t_monotonic_ms":75235,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=29.11 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":21,"t_monotonic_ms":76931,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=30.80 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":22,"t_monotonic_ms":78436,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=32.31 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=7647232 peak=0.1976 rms=0.01472
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":23,"t_monotonic_ms":80131,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=34.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":24,"t_monotonic_ms":81635,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=35.51 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":25,"t_monotonic_ms":83331,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=37.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":26,"t_monotonic_ms":84835,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=38.71 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":27,"t_monotonic_ms":86531,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=40.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":28,"t_monotonic_ms":88035,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=41.90 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=8609792 peak=0.1976 rms=0.01608
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":29,"t_monotonic_ms":89731,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=43.60 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":30,"t_monotonic_ms":91235,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=45.10 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":31,"t_monotonic_ms":92931,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=46.80 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":32,"t_monotonic_ms":94435,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=48.30 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":33,"t_monotonic_ms":96130,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=50.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":34,"t_monotonic_ms":97635,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=51.50 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":35,"t_monotonic_ms":99331,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=53.20 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=9570304 peak=0.1976 rms=0.01713
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":36,"t_monotonic_ms":100834,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=54.70 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":37,"t_monotonic_ms":102530,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=56.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":38,"t_monotonic_ms":104035,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=57.90 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":39,"t_monotonic_ms":105730,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=59.60 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":40,"t_monotonic_ms":107234,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=61.10 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":41,"t_monotonic_ms":108930,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=62.80 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=10530816 peak=0.1976 rms=0.01774
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":42,"t_monotonic_ms":110434,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=64.30 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":43,"t_monotonic_ms":112130,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=66.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":44,"t_monotonic_ms":113634,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=67.50 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":45,"t_monotonic_ms":115330,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=69.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":46,"t_monotonic_ms":116834,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=70.70 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":47,"t_monotonic_ms":118530,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=72.40 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=11491328 peak=0.1976 rms=0.01821
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":48,"t_monotonic_ms":120034,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=73.90 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":49,"t_monotonic_ms":121730,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=75.60 hp=100 qi=80 stage=1 shield=0
+[Ascension] paused time=77.02 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=12451840 peak=0.1976 rms=0.01787
+[AscensionAudio] samples=13410304 peak=0.1976 rms=0.01722
+[AscensionAudio] samples=14372864 peak=0.1976 rms=0.01664
+[Ascension] resumed time=77.02 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":50,"t_monotonic_ms":149804,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=77.10 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":51,"t_monotonic_ms":151500,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=78.80 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":52,"t_monotonic_ms":153004,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=80.30 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":53,"t_monotonic_ms":154699,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=82.00 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":54,"t_monotonic_ms":156204,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=83.50 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":55,"t_monotonic_ms":157898,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=85.20 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":56,"t_monotonic_ms":159402,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=86.71 hp=100 qi=80 stage=1 shield=0
+[AscensionAudio] samples=15333376 peak=0.1976 rms=0.01709
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":57,"t_monotonic_ms":161099,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=88.40 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":58,"t_monotonic_ms":162602,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=89.91 hp=100 qi=80 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":59,"t_monotonic_ms":162700,"event_type":"audio_triggered","event_key":"stage_changed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:stage_changed"}
+[Ascension] stage_changed time=90.00 hp=100 qi=80 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":60,"t_monotonic_ms":164199,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=91.50 hp=100 qi=80 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":61,"t_monotonic_ms":164662,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=91.97 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":62,"t_monotonic_ms":164720,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=92.02 hp=100 qi=32 stage=2 shield=60
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-stage_changed-20260925T061511.wav
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":63,"t_monotonic_ms":165545,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=92.82 hp=100 qi=32 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":64,"t_monotonic_ms":165727,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=93.03 hp=100 qi=52 stage=2 shield=60
+[Ascension] shield_ended time=94.03 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":65,"t_monotonic_ms":166907,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=94.21 hp=100 qi=72 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":66,"t_monotonic_ms":166998,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=94.30 hp=100 qi=72 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":67,"t_monotonic_ms":167503,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=94.81 hp=100 qi=72 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":68,"t_monotonic_ms":167528,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=94.83 hp=100 qi=48 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":69,"t_monotonic_ms":168007,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=95.31 hp=100 qi=48 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":70,"t_monotonic_ms":168302,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=95.61 hp=100 qi=48 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":71,"t_monotonic_ms":168806,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=96.11 hp=100 qi=48 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":72,"t_monotonic_ms":169311,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=96.62 hp=100 qi=48 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":73,"t_monotonic_ms":169341,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=96.65 hp=100 qi=68 stage=2 shield=0
+[AscensionAudio] samples=16291840 peak=0.2072 rms=0.01817
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":74,"t_monotonic_ms":169798,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=97.10 hp=100 qi=68 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":75,"t_monotonic_ms":170140,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=97.45 hp=100 qi=88 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":76,"t_monotonic_ms":170302,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=97.61 hp=100 qi=88 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":77,"t_monotonic_ms":170336,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=97.64 hp=100 qi=64 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":78,"t_monotonic_ms":170807,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=98.11 hp=100 qi=64 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":79,"t_monotonic_ms":171102,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=98.41 hp=100 qi=64 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":80,"t_monotonic_ms":171607,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=98.91 hp=100 qi=64 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":81,"t_monotonic_ms":172110,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=99.42 hp=100 qi=64 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":82,"t_monotonic_ms":172495,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=99.80 hp=100 qi=84 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":83,"t_monotonic_ms":172599,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=99.91 hp=100 qi=84 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":84,"t_monotonic_ms":173102,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=100.41 hp=100 qi=84 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":85,"t_monotonic_ms":173145,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=100.45 hp=100 qi=60 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":86,"t_monotonic_ms":173607,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=100.91 hp=100 qi=60 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":87,"t_monotonic_ms":173632,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=100.94 hp=100 qi=36 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":88,"t_monotonic_ms":173902,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=101.21 hp=100 qi=36 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":89,"t_monotonic_ms":174407,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=101.71 hp=100 qi=36 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":90,"t_monotonic_ms":174911,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=102.22 hp=100 qi=36 stage=2 shield=60
+[Ascension] shield_ended time=102.46 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":91,"t_monotonic_ms":175398,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=102.71 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":92,"t_monotonic_ms":175619,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=102.93 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":93,"t_monotonic_ms":175903,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=103.21 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":94,"t_monotonic_ms":176403,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=103.71 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":95,"t_monotonic_ms":176444,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=103.75 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":96,"t_monotonic_ms":176702,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=104.01 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":97,"t_monotonic_ms":177207,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=104.52 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":98,"t_monotonic_ms":177707,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=105.02 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":99,"t_monotonic_ms":178198,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=105.51 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":100,"t_monotonic_ms":178424,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=105.73 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":101,"t_monotonic_ms":178702,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=106.01 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":102,"t_monotonic_ms":179206,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=106.52 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":103,"t_monotonic_ms":179252,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=106.56 hp=100 qi=28 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":104,"t_monotonic_ms":179315,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=106.62 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":105,"t_monotonic_ms":179503,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=106.81 hp=100 qi=4 stage=2 shield=60
+[AscensionAudio] samples=17252352 peak=0.2621 rms=0.02120
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":106,"t_monotonic_ms":180007,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=107.32 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":107,"t_monotonic_ms":180510,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=107.82 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":108,"t_monotonic_ms":180998,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=108.31 hp=100 qi=4 stage=2 shield=60
+[Ascension] shield_ended time=108.57 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":109,"t_monotonic_ms":182303,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=109.61 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":110,"t_monotonic_ms":183798,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=111.11 hp=100 qi=4 stage=2 shield=0
+[Ascension] warning_blocking time=111.11 hp=100 qi=4 stage=2 shield=0
+[Ascension] warning_blocking time=111.11 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":111,"t_monotonic_ms":185102,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=112.41 hp=100 qi=4 stage=2 shield=0
+[Ascension] lightning time=112.41 hp=100 qi=4 stage=2 shield=0
+[Ascension] lightning time=112.41 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":112,"t_monotonic_ms":186102,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=113.41 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":113,"t_monotonic_ms":186598,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=113.91 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":114,"t_monotonic_ms":187127,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=114.44 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":115,"t_monotonic_ms":187902,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=115.22 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":116,"t_monotonic_ms":189397,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=116.71 hp=100 qi=0 stage=2 shield=0
+[AscensionAudio] samples=18212864 peak=0.2621 rms=0.02195
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":117,"t_monotonic_ms":189852,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=117.17 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":118,"t_monotonic_ms":189901,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=117.22 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":119,"t_monotonic_ms":190406,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=117.72 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":120,"t_monotonic_ms":190702,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=118.02 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":121,"t_monotonic_ms":191206,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=118.52 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":122,"t_monotonic_ms":191710,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=119.02 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":123,"t_monotonic_ms":192198,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=119.51 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":124,"t_monotonic_ms":192523,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=119.84 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":125,"t_monotonic_ms":192677,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=119.99 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":126,"t_monotonic_ms":192702,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=120.02 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":127,"t_monotonic_ms":193206,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=120.52 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":128,"t_monotonic_ms":193502,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=120.82 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":129,"t_monotonic_ms":194006,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=121.32 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":130,"t_monotonic_ms":194511,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=121.83 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":131,"t_monotonic_ms":194877,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=122.19 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":132,"t_monotonic_ms":194998,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=122.31 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":133,"t_monotonic_ms":196302,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=123.62 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":134,"t_monotonic_ms":197797,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=125.11 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":135,"t_monotonic_ms":199102,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=126.42 hp=100 qi=36 stage=2 shield=0
+[AscensionAudio] samples=19173376 peak=0.2704 rms=0.02297
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":136,"t_monotonic_ms":200597,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=127.92 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":137,"t_monotonic_ms":200622,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=127.94 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":138,"t_monotonic_ms":201276,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=128.59 hp=100 qi=32 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":139,"t_monotonic_ms":201402,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=128.72 hp=100 qi=52 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":140,"t_monotonic_ms":201901,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=129.22 hp=100 qi=52 stage=2 shield=60
+[Ascension] shield_ended time=130.60 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":141,"t_monotonic_ms":203397,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=130.71 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":142,"t_monotonic_ms":203901,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=131.22 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":143,"t_monotonic_ms":203960,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=131.28 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":144,"t_monotonic_ms":204405,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=131.72 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":145,"t_monotonic_ms":204701,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=132.02 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":146,"t_monotonic_ms":205206,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=132.52 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":147,"t_monotonic_ms":205710,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=133.03 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":148,"t_monotonic_ms":206198,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=133.51 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":149,"t_monotonic_ms":206702,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=134.02 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":150,"t_monotonic_ms":206706,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=134.02 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":151,"t_monotonic_ms":206806,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=134.12 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":152,"t_monotonic_ms":207201,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=134.52 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":153,"t_monotonic_ms":207501,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=134.82 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":154,"t_monotonic_ms":208005,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=135.32 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":155,"t_monotonic_ms":208506,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=135.82 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":156,"t_monotonic_ms":208997,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=136.31 hp=100 qi=24 stage=2 shield=0
+[Ascension] warning_blocking time=136.31 hp=100 qi=24 stage=2 shield=0
+[Ascension] warning_blocking time=136.31 hp=100 qi=24 stage=2 shield=0
+[AscensionAudio] samples=20133888 peak=0.2974 rms=0.02385
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":157,"t_monotonic_ms":210301,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=137.62 hp=100 qi=24 stage=2 shield=0
+[Ascension] lightning time=137.62 hp=100 qi=24 stage=2 shield=0
+[Ascension] lightning time=137.62 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":158,"t_monotonic_ms":211797,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=139.11 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":159,"t_monotonic_ms":212301,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=139.62 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":160,"t_monotonic_ms":212326,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=139.64 hp=100 qi=0 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":161,"t_monotonic_ms":212485,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=139.80 hp=100 qi=20 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":162,"t_monotonic_ms":212805,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=140.12 hp=100 qi=20 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":163,"t_monotonic_ms":212930,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=140.25 hp=100 qi=40 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":164,"t_monotonic_ms":212939,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=140.25 hp=100 qi=16 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":165,"t_monotonic_ms":213101,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=140.42 hp=100 qi=16 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":166,"t_monotonic_ms":213606,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=140.92 hp=100 qi=16 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":167,"t_monotonic_ms":214110,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=141.42 hp=100 qi=16 stage=2 shield=60
+[Ascension] shield_ended time=141.65 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":168,"t_monotonic_ms":214597,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=141.91 hp=100 qi=16 stage=2 shield=0
+[Ascension] warning_blocking time=141.91 hp=100 qi=16 stage=2 shield=0
+[Ascension] warning_blocking time=141.91 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":169,"t_monotonic_ms":215901,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=143.22 hp=100 qi=16 stage=2 shield=0
+[Ascension] lightning time=143.22 hp=100 qi=16 stage=2 shield=0
+[Ascension] lightning time=143.22 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":170,"t_monotonic_ms":217397,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=144.71 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":171,"t_monotonic_ms":217901,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=145.22 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":172,"t_monotonic_ms":218251,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=145.57 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":173,"t_monotonic_ms":218401,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=145.72 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":174,"t_monotonic_ms":218435,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=145.75 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":175,"t_monotonic_ms":218701,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=146.02 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":176,"t_monotonic_ms":219204,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=146.52 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":177,"t_monotonic_ms":219705,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=147.02 hp=100 qi=12 stage=2 shield=60
+[AscensionAudio] samples=21094400 peak=0.2974 rms=0.02465
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":178,"t_monotonic_ms":219859,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=147.17 hp=100 qi=32 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":179,"t_monotonic_ms":220197,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=147.51 hp=100 qi=32 stage=2 shield=60
+[Ascension] shield_ended time=147.75 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":180,"t_monotonic_ms":220693,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=148.01 hp=100 qi=8 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":181,"t_monotonic_ms":221342,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=148.66 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":182,"t_monotonic_ms":221501,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=148.81 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":183,"t_monotonic_ms":222997,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=150.31 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":184,"t_monotonic_ms":223438,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=150.75 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":185,"t_monotonic_ms":224301,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=151.61 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":186,"t_monotonic_ms":225798,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=153.11 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":187,"t_monotonic_ms":226650,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=153.96 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":188,"t_monotonic_ms":227100,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=154.41 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":189,"t_monotonic_ms":228597,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=155.91 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":190,"t_monotonic_ms":229097,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=156.41 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":191,"t_monotonic_ms":229105,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=156.42 hp=100 qi=0 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":192,"t_monotonic_ms":229601,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=156.91 hp=100 qi=0 stage=2 shield=60
+[AscensionAudio] samples=22052864 peak=0.2974 rms=0.02522
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":193,"t_monotonic_ms":229896,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=157.21 hp=100 qi=0 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":194,"t_monotonic_ms":230400,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=157.71 hp=100 qi=0 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":195,"t_monotonic_ms":230402,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=157.71 hp=100 qi=0 stage=2 shield=38
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":196,"t_monotonic_ms":230402,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=157.71 hp=100 qi=20 stage=2 shield=38
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":197,"t_monotonic_ms":230905,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=158.22 hp=100 qi=20 stage=2 shield=38
+[Ascension] shield_ended time=158.42 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":198,"t_monotonic_ms":231396,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=158.71 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":199,"t_monotonic_ms":232701,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=160.01 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":200,"t_monotonic_ms":234196,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=161.51 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":201,"t_monotonic_ms":234355,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=161.67 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":202,"t_monotonic_ms":234697,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=162.01 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":203,"t_monotonic_ms":234717,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=162.03 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":204,"t_monotonic_ms":235200,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=162.51 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":205,"t_monotonic_ms":235501,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=162.81 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":206,"t_monotonic_ms":236001,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=163.31 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":207,"t_monotonic_ms":236504,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=163.82 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":208,"t_monotonic_ms":236996,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=164.31 hp=100 qi=16 stage=2 shield=0
+[Ascension] warning_blocking time=164.31 hp=100 qi=16 stage=2 shield=0
+[Ascension] warning_blocking time=164.31 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":209,"t_monotonic_ms":238301,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=165.61 hp=100 qi=16 stage=2 shield=0
+[Ascension] lightning time=165.61 hp=100 qi=16 stage=2 shield=0
+[Ascension] lightning time=165.61 hp=100 qi=16 stage=2 shield=0
+[AscensionAudio] samples=23015424 peak=0.2974 rms=0.02578
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":210,"t_monotonic_ms":239796,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=167.11 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":211,"t_monotonic_ms":240300,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=167.61 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":212,"t_monotonic_ms":240800,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=168.11 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":213,"t_monotonic_ms":241101,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=168.41 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":214,"t_monotonic_ms":241604,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=168.91 hp=100 qi=16 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":215,"t_monotonic_ms":241650,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=168.96 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":216,"t_monotonic_ms":242104,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=169.41 hp=100 qi=36 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":217,"t_monotonic_ms":242562,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=169.87 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":218,"t_monotonic_ms":242596,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=169.91 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":219,"t_monotonic_ms":243100,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=170.41 hp=100 qi=56 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":220,"t_monotonic_ms":243146,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=170.46 hp=100 qi=32 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":221,"t_monotonic_ms":243208,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=170.52 hp=100 qi=8 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":222,"t_monotonic_ms":243605,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=170.91 hp=100 qi=8 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":223,"t_monotonic_ms":243900,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=171.21 hp=100 qi=8 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":224,"t_monotonic_ms":244404,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=171.71 hp=100 qi=8 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":225,"t_monotonic_ms":244908,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=172.22 hp=100 qi=8 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":226,"t_monotonic_ms":244909,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=172.22 hp=100 qi=8 stage=2 shield=38
+[Ascension] shield_ended time=172.46 hp=100 qi=8 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":227,"t_monotonic_ms":245396,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=172.70 hp=100 qi=8 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":228,"t_monotonic_ms":246700,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=174.01 hp=100 qi=8 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":229,"t_monotonic_ms":248196,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=175.50 hp=100 qi=8 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":230,"t_monotonic_ms":248258,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=175.57 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":231,"t_monotonic_ms":248700,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=176.01 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":232,"t_monotonic_ms":248700,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=176.01 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":233,"t_monotonic_ms":248746,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=176.05 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":234,"t_monotonic_ms":249204,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=176.51 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":235,"t_monotonic_ms":249499,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=176.81 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":236,"t_monotonic_ms":249500,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=176.81 hp=100 qi=44 stage=2 shield=0
+[AscensionAudio] samples=23973888 peak=0.2974 rms=0.02660
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":237,"t_monotonic_ms":250003,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=177.31 hp=100 qi=44 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":238,"t_monotonic_ms":250508,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=177.82 hp=100 qi=44 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":239,"t_monotonic_ms":250996,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=178.30 hp=100 qi=44 stage=2 shield=0
+[Ascension] warning_blocking time=178.30 hp=100 qi=44 stage=2 shield=0
+[Ascension] warning_blocking time=178.30 hp=100 qi=44 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":240,"t_monotonic_ms":252300,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=179.61 hp=100 qi=44 stage=2 shield=0
+[Ascension] lightning time=179.61 hp=100 qi=44 stage=2 shield=0
+[Ascension] lightning time=179.61 hp=100 qi=44 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":241,"t_monotonic_ms":253796,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=181.10 hp=100 qi=44 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":242,"t_monotonic_ms":254258,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=181.57 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":243,"t_monotonic_ms":254300,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=181.61 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":244,"t_monotonic_ms":254804,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=182.11 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":245,"t_monotonic_ms":255100,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=182.41 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":246,"t_monotonic_ms":255362,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=182.67 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":247,"t_monotonic_ms":255604,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=182.91 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":248,"t_monotonic_ms":256108,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=183.41 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":249,"t_monotonic_ms":256596,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=183.90 hp=100 qi=40 stage=2 shield=0
+[Ascension] warning_blocking time=183.90 hp=100 qi=40 stage=2 shield=0
+[Ascension] warning_blocking time=183.90 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":250,"t_monotonic_ms":257900,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=185.21 hp=100 qi=40 stage=2 shield=0
+[Ascension] lightning time=185.21 hp=100 qi=40 stage=2 shield=0
+[Ascension] lightning time=185.21 hp=100 qi=40 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":251,"t_monotonic_ms":258150,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=185.46 hp=100 qi=60 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":252,"t_monotonic_ms":259396,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=186.70 hp=100 qi=60 stage=2 shield=0
+[AscensionAudio] samples=24936448 peak=0.2974 rms=0.02713
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":253,"t_monotonic_ms":260699,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=188.01 hp=100 qi=60 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":254,"t_monotonic_ms":262195,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=189.50 hp=100 qi=60 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":255,"t_monotonic_ms":262699,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=190.00 hp=100 qi=60 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":256,"t_monotonic_ms":262737,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=190.04 hp=100 qi=36 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":257,"t_monotonic_ms":263204,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=190.51 hp=100 qi=36 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":258,"t_monotonic_ms":263229,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=190.53 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":259,"t_monotonic_ms":263499,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=190.80 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":260,"t_monotonic_ms":264002,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=191.31 hp=100 qi=12 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":261,"t_monotonic_ms":264508,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=191.81 hp=100 qi=12 stage=2 shield=60
+[Ascension] shield_ended time=192.05 hp=100 qi=12 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":262,"t_monotonic_ms":264994,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=192.30 hp=100 qi=12 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":263,"t_monotonic_ms":265254,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=192.56 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":264,"t_monotonic_ms":265499,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=192.80 hp=100 qi=32 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":265,"t_monotonic_ms":265707,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=193.01 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":266,"t_monotonic_ms":266004,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=193.31 hp=100 qi=52 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":267,"t_monotonic_ms":266032,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=193.34 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":268,"t_monotonic_ms":266299,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=193.60 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":269,"t_monotonic_ms":266804,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=194.11 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":270,"t_monotonic_ms":267307,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=194.61 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":271,"t_monotonic_ms":267795,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=195.10 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":272,"t_monotonic_ms":268299,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=195.60 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":273,"t_monotonic_ms":268803,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=196.11 hp=100 qi=28 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":274,"t_monotonic_ms":268840,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=196.14 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":275,"t_monotonic_ms":269099,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=196.40 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":276,"t_monotonic_ms":269604,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=196.91 hp=100 qi=4 stage=2 shield=60
+[AscensionAudio] samples=25894912 peak=0.2974 rms=0.02769
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":277,"t_monotonic_ms":270107,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=197.41 hp=100 qi=4 stage=2 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":278,"t_monotonic_ms":270108,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=197.41 hp=100 qi=4 stage=2 shield=38
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":279,"t_monotonic_ms":270595,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=197.90 hp=100 qi=4 stage=2 shield=38
+[Ascension] shield_ended time=198.15 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":280,"t_monotonic_ms":271899,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=199.20 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":281,"t_monotonic_ms":273394,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=200.70 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":282,"t_monotonic_ms":273899,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=201.20 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":283,"t_monotonic_ms":274402,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=201.71 hp=100 qi=4 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":284,"t_monotonic_ms":274545,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=201.85 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":285,"t_monotonic_ms":274699,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=202.00 hp=100 qi=24 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":286,"t_monotonic_ms":274941,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=202.24 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":287,"t_monotonic_ms":275202,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=202.51 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":288,"t_monotonic_ms":275707,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=203.01 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":289,"t_monotonic_ms":276199,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=203.50 hp=100 qi=0 stage=2 shield=0
+[Ascension] warning_blocking time=203.50 hp=100 qi=0 stage=2 shield=0
+[Ascension] warning_blocking time=203.50 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":290,"t_monotonic_ms":277502,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=204.81 hp=100 qi=0 stage=2 shield=0
+[Ascension] lightning time=204.81 hp=100 qi=0 stage=2 shield=0
+[Ascension] lightning time=204.81 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":291,"t_monotonic_ms":278999,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=206.30 hp=100 qi=0 stage=2 shield=0
+[Ascension] warning_blocking time=206.30 hp=100 qi=0 stage=2 shield=0
+[Ascension] warning_blocking time=206.30 hp=100 qi=0 stage=2 shield=0
+[AscensionAudio] samples=26857472 peak=0.2974 rms=0.02813
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":292,"t_monotonic_ms":280302,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=207.60 hp=100 qi=0 stage=2 shield=0
+[Ascension] lightning time=207.60 hp=100 qi=0 stage=2 shield=0
+[Ascension] lightning time=207.60 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":293,"t_monotonic_ms":281799,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=209.10 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":294,"t_monotonic_ms":282303,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=209.60 hp=100 qi=0 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":295,"t_monotonic_ms":282545,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=209.85 hp=100 qi=20 stage=2 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":296,"t_monotonic_ms":282703,"event_type":"audio_triggered","event_key":"stage_changed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:stage_changed"}
+[Ascension] stage_changed time=210.00 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":297,"t_monotonic_ms":282806,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=210.11 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":298,"t_monotonic_ms":283102,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=210.40 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":299,"t_monotonic_ms":283465,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=210.77 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":300,"t_monotonic_ms":283607,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=210.91 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":301,"t_monotonic_ms":284111,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=211.41 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":302,"t_monotonic_ms":284203,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=211.50 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":303,"t_monotonic_ms":285407,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=212.71 hp=100 qi=40 stage=3 shield=0
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-stage_changed-20260925T061711.wav
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":304,"t_monotonic_ms":286036,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=213.34 hp=100 qi=60 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":305,"t_monotonic_ms":286604,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=213.90 hp=100 qi=60 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":306,"t_monotonic_ms":287807,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=215.11 hp=100 qi=60 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":307,"t_monotonic_ms":289002,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=216.30 hp=100 qi=60 stage=3 shield=0
+[Ascension] warning_blocking time=216.30 hp=100 qi=60 stage=3 shield=0
+[Ascension] warning_blocking time=216.30 hp=100 qi=60 stage=3 shield=0
+[AscensionAudio] samples=27815936 peak=0.2974 rms=0.02845
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":308,"t_monotonic_ms":290206,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=217.51 hp=100 qi=60 stage=3 shield=0
+[Ascension] lightning time=217.51 hp=100 qi=60 stage=3 shield=0
+[Ascension] lightning time=217.51 hp=100 qi=60 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":309,"t_monotonic_ms":291402,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=218.70 hp=100 qi=60 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":310,"t_monotonic_ms":291853,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=219.15 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":311,"t_monotonic_ms":292607,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=219.91 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":312,"t_monotonic_ms":293110,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=220.41 hp=100 qi=56 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":313,"t_monotonic_ms":293790,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=221.09 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":314,"t_monotonic_ms":293803,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=221.10 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":315,"t_monotonic_ms":295007,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=222.31 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":316,"t_monotonic_ms":296202,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=223.50 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":317,"t_monotonic_ms":297406,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=224.70 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":318,"t_monotonic_ms":298602,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=225.90 hp=100 qi=76 stage=3 shield=0
+[Ascension] tracking_locked time=226.70 hp=100 qi=76 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":319,"t_monotonic_ms":299415,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=226.71 hp=100 qi=52 stage=3 shield=0
+[AscensionAudio] samples=28778496 peak=0.2974 rms=0.02846
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":320,"t_monotonic_ms":300256,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=227.55 hp=100 qi=52 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":321,"t_monotonic_ms":301002,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=228.30 hp=100 qi=52 stage=3 shield=0
+[Ascension] warning_blocking time=228.30 hp=100 qi=52 stage=3 shield=0
+[Ascension] warning_blocking time=228.30 hp=100 qi=52 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":322,"t_monotonic_ms":302206,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=229.50 hp=100 qi=52 stage=3 shield=0
+[Ascension] lightning time=229.50 hp=100 qi=52 stage=3 shield=0
+[Ascension] lightning time=229.50 hp=100 qi=52 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":323,"t_monotonic_ms":303402,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=230.70 hp=100 qi=52 stage=3 shield=0
+[Ascension] tracking_locked time=231.50 hp=100 qi=52 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":324,"t_monotonic_ms":304235,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=231.53 hp=100 qi=28 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":325,"t_monotonic_ms":304298,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=231.59 hp=100 qi=4 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":326,"t_monotonic_ms":304331,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=231.63 hp=100 qi=24 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":327,"t_monotonic_ms":305056,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=232.35 hp=100 qi=24 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":328,"t_monotonic_ms":305802,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=233.10 hp=100 qi=24 stage=3 shield=60
+[Ascension] shield_ended time=233.54 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":329,"t_monotonic_ms":307006,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=234.30 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":330,"t_monotonic_ms":308202,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=235.50 hp=100 qi=24 stage=3 shield=0
+[Ascension] warning_blocking time=235.50 hp=100 qi=24 stage=3 shield=0
+[Ascension] warning_blocking time=235.50 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":331,"t_monotonic_ms":309405,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=236.70 hp=100 qi=24 stage=3 shield=0
+[Ascension] lightning time=236.70 hp=100 qi=24 stage=3 shield=0
+[Ascension] lightning time=236.70 hp=100 qi=24 stage=3 shield=0
+[AscensionAudio] samples=29736960 peak=0.2974 rms=0.02847
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":332,"t_monotonic_ms":310602,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=237.90 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":333,"t_monotonic_ms":311806,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=239.10 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":334,"t_monotonic_ms":313002,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=240.30 hp=100 qi=24 stage=3 shield=0
+[Ascension] tracking_locked time=241.10 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":335,"t_monotonic_ms":313810,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=241.10 hp=100 qi=0 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":336,"t_monotonic_ms":313814,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=241.11 hp=100 qi=20 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":337,"t_monotonic_ms":314656,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=241.95 hp=100 qi=20 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":338,"t_monotonic_ms":314656,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=241.95 hp=100 qi=20 stage=3 shield=34
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":339,"t_monotonic_ms":315401,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=242.70 hp=100 qi=20 stage=3 shield=34
+[Ascension] shield_ended time=243.11 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":340,"t_monotonic_ms":316606,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=243.90 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":341,"t_monotonic_ms":317802,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=245.10 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":342,"t_monotonic_ms":319006,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=246.30 hp=100 qi=20 stage=3 shield=0
+[AscensionAudio] samples=30699520 peak=0.2974 rms=0.02848
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":343,"t_monotonic_ms":319847,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=247.14 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":344,"t_monotonic_ms":320201,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=247.49 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":345,"t_monotonic_ms":321406,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=248.70 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":346,"t_monotonic_ms":322601,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=249.89 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":347,"t_monotonic_ms":323805,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=251.10 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":348,"t_monotonic_ms":325001,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=252.29 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=252.29 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=252.29 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":349,"t_monotonic_ms":326205,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=253.50 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=253.50 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=253.50 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":350,"t_monotonic_ms":327401,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=254.69 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":351,"t_monotonic_ms":327909,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=255.20 hp=100 qi=16 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":352,"t_monotonic_ms":328606,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=255.90 hp=100 qi=16 stage=3 shield=0
+[AscensionAudio] samples=31657984 peak=0.2974 rms=0.02845
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":353,"t_monotonic_ms":329801,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=257.09 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":354,"t_monotonic_ms":329801,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=257.09 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":355,"t_monotonic_ms":331005,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=258.30 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":356,"t_monotonic_ms":332201,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=259.50 hp=100 qi=36 stage=3 shield=0
+[Ascension] tracking_locked time=260.30 hp=100 qi=36 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":357,"t_monotonic_ms":333030,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=260.33 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":358,"t_monotonic_ms":333039,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=260.33 hp=100 qi=32 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":359,"t_monotonic_ms":333089,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=260.38 hp=100 qi=8 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":360,"t_monotonic_ms":333854,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=261.15 hp=100 qi=8 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":361,"t_monotonic_ms":334601,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=261.90 hp=100 qi=8 stage=3 shield=60
+[Ascension] shield_ended time=262.33 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":362,"t_monotonic_ms":335105,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=262.40 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":363,"t_monotonic_ms":335609,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=262.91 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":364,"t_monotonic_ms":335805,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=263.10 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":365,"t_monotonic_ms":336309,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=263.61 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":366,"t_monotonic_ms":336814,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=264.11 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":367,"t_monotonic_ms":337001,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=264.30 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":368,"t_monotonic_ms":338205,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=265.50 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":369,"t_monotonic_ms":339400,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=266.70 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":370,"t_monotonic_ms":339476,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=266.78 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":371,"t_monotonic_ms":339738,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=267.04 hp=100 qi=4 stage=3 shield=60
+[AscensionAudio] samples=32620544 peak=0.2974 rms=0.02871
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":372,"t_monotonic_ms":339905,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=267.21 hp=100 qi=4 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":373,"t_monotonic_ms":339926,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=267.23 hp=100 qi=24 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":374,"t_monotonic_ms":339984,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=267.28 hp=100 qi=0 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":375,"t_monotonic_ms":340409,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=267.71 hp=100 qi=0 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":376,"t_monotonic_ms":340605,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=267.91 hp=100 qi=0 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":377,"t_monotonic_ms":341109,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=268.41 hp=100 qi=0 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":378,"t_monotonic_ms":341238,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=268.54 hp=100 qi=20 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":379,"t_monotonic_ms":341612,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=268.92 hp=100 qi=20 stage=3 shield=60
+[Ascension] shield_ended time=269.04 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":380,"t_monotonic_ms":341800,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=269.10 hp=100 qi=20 stage=3 shield=0
+[Ascension] warning_blocking time=269.10 hp=100 qi=20 stage=3 shield=0
+[Ascension] warning_blocking time=269.10 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":381,"t_monotonic_ms":343005,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=270.31 hp=100 qi=20 stage=3 shield=0
+[Ascension] lightning time=270.31 hp=100 qi=20 stage=3 shield=0
+[Ascension] lightning time=270.31 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":382,"t_monotonic_ms":344200,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=271.50 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":383,"t_monotonic_ms":345404,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=272.71 hp=100 qi=20 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":384,"t_monotonic_ms":345880,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=273.19 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":385,"t_monotonic_ms":346600,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=273.91 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=273.91 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=273.91 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":386,"t_monotonic_ms":347805,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=275.11 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=275.11 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=275.11 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":387,"t_monotonic_ms":349001,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=276.31 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=276.31 hp=100 qi=40 stage=3 shield=0
+[Ascension] warning_blocking time=276.31 hp=100 qi=40 stage=3 shield=0
+[AscensionAudio] samples=33579008 peak=0.2974 rms=0.02898
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":388,"t_monotonic_ms":350204,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=277.51 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=277.51 hp=100 qi=40 stage=3 shield=0
+[Ascension] lightning time=277.51 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":389,"t_monotonic_ms":351401,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=278.71 hp=100 qi=40 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":390,"t_monotonic_ms":351892,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=279.20 hp=100 qi=16 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":391,"t_monotonic_ms":351904,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=279.21 hp=100 qi=16 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":392,"t_monotonic_ms":352200,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=279.51 hp=100 qi=36 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":393,"t_monotonic_ms":352259,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=279.57 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":394,"t_monotonic_ms":352408,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_chain time=279.72 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":395,"t_monotonic_ms":352605,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=279.92 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":396,"t_monotonic_ms":353109,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=280.42 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":397,"t_monotonic_ms":353613,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=280.92 hp=100 qi=12 stage=3 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":398,"t_monotonic_ms":353800,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=281.11 hp=100 qi=12 stage=3 shield=60
+[Ascension] warning_blocking time=281.11 hp=100 qi=12 stage=3 shield=60
+[Ascension] warning_blocking time=281.11 hp=100 qi=12 stage=3 shield=60
+[Ascension] shield_ended time=281.21 hp=100 qi=12 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":399,"t_monotonic_ms":355004,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=282.32 hp=100 qi=12 stage=3 shield=0
+[Ascension] lightning time=282.32 hp=100 qi=12 stage=3 shield=0
+[Ascension] lightning time=282.32 hp=100 qi=12 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":400,"t_monotonic_ms":356200,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=283.51 hp=100 qi=12 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":401,"t_monotonic_ms":356863,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=284.18 hp=100 qi=32 stage=3 shield=0
+[Ascension] tracking_locked time=284.32 hp=100 qi=32 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":402,"t_monotonic_ms":357021,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=284.33 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":403,"t_monotonic_ms":357854,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=285.17 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":404,"t_monotonic_ms":358600,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=285.92 hp=100 qi=8 stage=3 shield=0
+[AscensionAudio] samples=34539520 peak=0.2974 rms=0.02915
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":405,"t_monotonic_ms":359804,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=287.12 hp=100 qi=8 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":406,"t_monotonic_ms":360021,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=287.34 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":407,"t_monotonic_ms":361000,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=288.32 hp=100 qi=28 stage=3 shield=0
+[Ascension] warning_blocking time=288.32 hp=100 qi=28 stage=3 shield=0
+[Ascension] warning_blocking time=288.32 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":408,"t_monotonic_ms":362204,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=289.52 hp=100 qi=28 stage=3 shield=0
+[Ascension] lightning time=289.52 hp=100 qi=28 stage=3 shield=0
+[Ascension] lightning time=289.52 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":409,"t_monotonic_ms":363399,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=290.72 hp=100 qi=28 stage=3 shield=0
+[Ascension] warning_blocking time=290.72 hp=100 qi=28 stage=3 shield=0
+[Ascension] warning_blocking time=290.72 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":410,"t_monotonic_ms":364604,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=291.92 hp=100 qi=28 stage=3 shield=0
+[Ascension] lightning time=291.92 hp=100 qi=28 stage=3 shield=0
+[Ascension] lightning time=291.92 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":411,"t_monotonic_ms":365800,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_tracking time=293.12 hp=100 qi=28 stage=3 shield=0
+[Ascension] tracking_locked time=293.92 hp=100 qi=28 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":412,"t_monotonic_ms":366663,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=293.98 hp=100 qi=4 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":413,"t_monotonic_ms":366784,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=294.10 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":414,"t_monotonic_ms":367454,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=294.77 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":415,"t_monotonic_ms":368200,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=295.52 hp=100 qi=24 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":416,"t_monotonic_ms":369404,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=296.73 hp=100 qi=24 stage=3 shield=0
+[AscensionAudio] samples=35500032 peak=0.2974 rms=0.02914
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":417,"t_monotonic_ms":370337,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=297.66 hp=100 qi=44 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":418,"t_monotonic_ms":370600,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_blocking time=297.92 hp=100 qi=44 stage=3 shield=0
+[Ascension] warning_blocking time=297.92 hp=100 qi=44 stage=3 shield=0
+[Ascension] warning_blocking time=297.92 hp=100 qi=44 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":419,"t_monotonic_ms":371804,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=299.13 hp=100 qi=44 stage=3 shield=0
+[Ascension] lightning time=299.13 hp=100 qi=44 stage=3 shield=0
+[Ascension] lightning time=299.13 hp=100 qi=44 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":420,"t_monotonic_ms":373000,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_predictive time=300.32 hp=100 qi=44 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":421,"t_monotonic_ms":374204,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=301.53 hp=100 qi=44 stage=3 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":422,"t_monotonic_ms":374675,"event_type":"audio_triggered","event_key":"stage_changed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:stage_changed"}
+[Ascension] stage_changed time=302.00 hp=100 qi=44 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":423,"t_monotonic_ms":375478,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_wind time=302.80 hp=100 qi=44 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":424,"t_monotonic_ms":376120,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=303.45 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":425,"t_monotonic_ms":376775,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=304.10 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":426,"t_monotonic_ms":376979,"event_type":"audio_triggered","event_key":"active_wind","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_wind"}
+[Ascension] active_wind time=304.31 hp=100 qi=84 stage=4 shield=0
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-stage_changed-20260925T061843.wav
+[Ascension] ended_wind time=305.51 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":427,"t_monotonic_ms":378675,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_fire time=306.00 hp=100 qi=84 stage=4 shield=0
+[AscensionAudio] samples=36460544 peak=0.2974 rms=0.02916
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":428,"t_monotonic_ms":379880,"event_type":"audio_triggered","event_key":"active_fire","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_fire"}
+[Ascension] active_fire time=307.21 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_fire time=310.71 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":429,"t_monotonic_ms":383870,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_earth time=311.20 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":430,"t_monotonic_ms":385225,"event_type":"audio_triggered","event_key":"active_earth","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_earth"}
+[Ascension] active_earth time=312.56 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_earth time=313.21 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":431,"t_monotonic_ms":387466,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_bloom time=314.80 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":432,"t_monotonic_ms":388770,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] active_bloomcenter time=316.11 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomcenter time=316.26 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":433,"t_monotonic_ms":389020,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] active_bloomray time=316.36 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_bloomray time=316.71 hp=100 qi=84 stage=4 shield=0
+[AscensionAudio] samples=37421056 peak=0.5023 rms=0.02895
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":434,"t_monotonic_ms":392662,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_windfire time=320.00 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":435,"t_monotonic_ms":393865,"event_type":"audio_triggered","event_key":"active_fire","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_fire"}
+[Ascension] active_fire time=321.21 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":436,"t_monotonic_ms":394166,"event_type":"audio_triggered","event_key":"active_wind","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_wind"}
+[Ascension] active_wind time=321.51 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_wind time=322.71 hp=100 qi=84 stage=4 shield=0
+[Ascension] ended_fire time=324.71 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":437,"t_monotonic_ms":398657,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=326.00 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":438,"t_monotonic_ms":398657,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_earthlightning time=326.00 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":439,"t_monotonic_ms":399028,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=326.37 hp=100 qi=60 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":440,"t_monotonic_ms":399090,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=326.44 hp=100 qi=36 stage=4 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":441,"t_monotonic_ms":399095,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=326.44 hp=100 qi=56 stage=4 shield=60
+[AscensionAudio] samples=38381568 peak=0.5023 rms=0.02885
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":442,"t_monotonic_ms":399861,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=327.21 hp=100 qi=56 stage=4 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":443,"t_monotonic_ms":400011,"event_type":"audio_triggered","event_key":"active_earth","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_earth"}
+[Ascension] active_earth time=327.36 hp=100 qi=56 stage=4 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":444,"t_monotonic_ms":400152,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=327.50 hp=100 qi=56 stage=4 shield=35
+[Ascension] ended_earth time=328.01 hp=100 qi=56 stage=4 shield=35
+[Ascension] shield_ended time=328.44 hp=100 qi=56 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":445,"t_monotonic_ms":401228,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=328.57 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":446,"t_monotonic_ms":402652,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_bloomfire time=330.00 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":447,"t_monotonic_ms":403857,"event_type":"audio_triggered","event_key":"active_fire","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_fire"}
+[Ascension] active_fire time=331.21 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":448,"t_monotonic_ms":403957,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] active_bloomcenter time=331.31 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomcenter time=331.46 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":449,"t_monotonic_ms":404207,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] active_bloomray time=331.56 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_bloomray time=331.91 hp=100 qi=76 stage=4 shield=0
+[Ascension] ended_fire time=334.71 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":450,"t_monotonic_ms":409148,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=336.50 hp=100 qi=76 stage=4 shield=0
+[Ascension] divine_wave time=336.50 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":451,"t_monotonic_ms":409648,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_wind time=337.00 hp=100 qi=76 stage=4 shield=0
+[AscensionAudio] samples=39342080 peak=0.5023 rms=0.02889
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":452,"t_monotonic_ms":410352,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=337.71 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":453,"t_monotonic_ms":411153,"event_type":"audio_triggered","event_key":"active_wind","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_wind"}
+[Ascension] active_wind time=338.51 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":454,"t_monotonic_ms":411648,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=339.00 hp=100 qi=76 stage=4 shield=0
+[Ascension] divine_wave time=339.00 hp=100 qi=76 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":455,"t_monotonic_ms":412118,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=339.47 hp=100 qi=52 stage=4 shield=0
+[Ascension] ended_wind time=339.71 hp=100 qi=52 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":456,"t_monotonic_ms":412851,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=340.21 hp=100 qi=52 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":457,"t_monotonic_ms":414148,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=341.50 hp=100 qi=52 stage=4 shield=0
+[Ascension] divine_wave time=341.50 hp=100 qi=52 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":458,"t_monotonic_ms":415348,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=342.71 hp=100 qi=52 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":459,"t_monotonic_ms":415644,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_fire time=343.00 hp=100 qi=52 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":460,"t_monotonic_ms":415677,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=343.03 hp=100 qi=72 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":461,"t_monotonic_ms":416644,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=344.00 hp=100 qi=72 stage=4 shield=0
+[Ascension] divine_wave time=344.00 hp=100 qi=72 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":462,"t_monotonic_ms":416848,"event_type":"audio_triggered","event_key":"active_fire","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_fire"}
+[Ascension] active_fire time=344.21 hp=100 qi=72 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":463,"t_monotonic_ms":417122,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=344.48 hp=100 qi=48 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":464,"t_monotonic_ms":417847,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=345.21 hp=100 qi=48 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":465,"t_monotonic_ms":419143,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=346.50 hp=100 qi=48 stage=4 shield=0
+[Ascension] divine_wave time=346.50 hp=100 qi=48 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":466,"t_monotonic_ms":419235,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=346.60 hp=100 qi=68 stage=4 shield=0
+[AscensionAudio] samples=40300544 peak=0.5023 rms=0.02893
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":467,"t_monotonic_ms":420347,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=347.71 hp=100 qi=68 stage=4 shield=0
+[Ascension] ended_fire time=347.71 hp=100 qi=68 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":468,"t_monotonic_ms":420381,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=347.74 hp=100 qi=88 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":469,"t_monotonic_ms":421639,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=349.00 hp=100 qi=88 stage=4 shield=0
+[Ascension] divine_wave time=349.00 hp=100 qi=88 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":470,"t_monotonic_ms":422197,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=349.56 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":471,"t_monotonic_ms":422844,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=350.21 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":472,"t_monotonic_ms":423639,"event_type":"audio_triggered","event_key":"element","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:element"}
+[Ascension] final_cue_earth time=351.00 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":473,"t_monotonic_ms":424139,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=351.50 hp=100 qi=64 stage=4 shield=0
+[Ascension] divine_wave time=351.50 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":474,"t_monotonic_ms":424993,"event_type":"audio_triggered","event_key":"active_earth","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:active_earth"}
+[Ascension] active_earth time=352.36 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":475,"t_monotonic_ms":425344,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=352.71 hp=100 qi=64 stage=4 shield=0
+[Ascension] ended_earth time=353.01 hp=100 qi=64 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":476,"t_monotonic_ms":425972,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=353.34 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":477,"t_monotonic_ms":426635,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=354.00 hp=100 qi=84 stage=4 shield=0
+[Ascension] divine_wave time=354.00 hp=100 qi=84 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":478,"t_monotonic_ms":426960,"event_type":"audio_triggered","event_key":"dash","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:dash"}
+[Ascension] dash time=354.33 hp=100 qi=60 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":479,"t_monotonic_ms":427839,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=355.21 hp=100 qi=60 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":480,"t_monotonic_ms":429134,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_divine time=356.50 hp=100 qi=60 stage=4 shield=0
+[Ascension] divine_wave time=356.50 hp=100 qi=60 stage=4 shield=0
+[AscensionAudio] samples=41263104 peak=0.5023 rms=0.02905
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":481,"t_monotonic_ms":429898,"event_type":"audio_triggered","event_key":"qi_collected","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:qi_collected"}
+[Ascension] qi_collected time=357.27 hp=100 qi=80 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":482,"t_monotonic_ms":430335,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=357.70 hp=100 qi=80 stage=4 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":483,"t_monotonic_ms":432632,"event_type":"audio_triggered","event_key":"won","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:won"}
+[Ascension] won time=360.00 hp=100 qi=80 stage=4 shield=0
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-won-20260925T061941.wav
+[AscensionAudio] samples=42221568 peak=0.5023 rms=0.02889
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":484,"t_monotonic_ms":442036,"event_type":"audio_triggered","event_key":"started","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:started"}
+[Ascension] started time=0.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":485,"t_monotonic_ms":444030,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=2.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":486,"t_monotonic_ms":445535,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=3.50 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":487,"t_monotonic_ms":445536,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=3.50 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":488,"t_monotonic_ms":447234,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=5.20 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":489,"t_monotonic_ms":448738,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=6.71 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":490,"t_monotonic_ms":448739,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=6.71 hp=64 qi=60 stage=1 shield=0
+[AscensionAudio] samples=43182080 peak=0.5023 rms=0.02872
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":491,"t_monotonic_ms":450434,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=8.40 hp=64 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":492,"t_monotonic_ms":451938,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=9.91 hp=64 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":493,"t_monotonic_ms":451939,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=9.91 hp=46 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":494,"t_monotonic_ms":453635,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=11.60 hp=46 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":495,"t_monotonic_ms":455138,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=13.11 hp=46 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":496,"t_monotonic_ms":455138,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=13.11 hp=28 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":497,"t_monotonic_ms":456833,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=14.80 hp=28 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":498,"t_monotonic_ms":458338,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=16.31 hp=28 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":499,"t_monotonic_ms":458339,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=16.31 hp=10 qi=60 stage=1 shield=0
+[AscensionAudio] samples=44144640 peak=0.5023 rms=0.02866
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":500,"t_monotonic_ms":460034,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=18.00 hp=10 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":501,"t_monotonic_ms":461538,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=19.51 hp=10 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":502,"t_monotonic_ms":461538,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=19.51 hp=0 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":503,"t_monotonic_ms":461539,"event_type":"audio_triggered","event_key":"lost","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lost"}
+[Ascension] lost time=19.51 hp=0 qi=60 stage=1 shield=0
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-lost-20260925T062010.wav
+[AscensionAudio] samples=45103104 peak=0.5023 rms=0.02857
+[AscensionAudio] samples=46063616 peak=0.5023 rms=0.02827
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":504,"t_monotonic_ms":481759,"event_type":"audio_triggered","event_key":"started","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:started"}
+[Ascension] started time=0.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":505,"t_monotonic_ms":483758,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=2.00 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":506,"t_monotonic_ms":485261,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=3.51 hp=100 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":507,"t_monotonic_ms":485262,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=3.51 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":508,"t_monotonic_ms":486958,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=5.20 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":509,"t_monotonic_ms":488461,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=6.71 hp=82 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":510,"t_monotonic_ms":488462,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=6.71 hp=64 qi=60 stage=1 shield=0
+[AscensionAudio] samples=47026176 peak=0.5023 rms=0.02813
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":511,"t_monotonic_ms":490158,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=8.40 hp=64 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":512,"t_monotonic_ms":491662,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=9.91 hp=64 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":513,"t_monotonic_ms":491662,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=9.91 hp=46 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":514,"t_monotonic_ms":493358,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=11.60 hp=46 qi=60 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":515,"t_monotonic_ms":493550,"event_type":"audio_triggered","event_key":"shield","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield"}
+[Ascension] shield time=11.79 hp=46 qi=36 stage=1 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":516,"t_monotonic_ms":494862,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=13.11 hp=46 qi=36 stage=1 shield=60
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":517,"t_monotonic_ms":494862,"event_type":"audio_triggered","event_key":"shield_absorbed","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:shield_absorbed"}
+[Ascension] shield_absorbed time=13.11 hp=46 qi=36 stage=1 shield=42
+[Ascension] shield_ended time=13.80 hp=46 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":518,"t_monotonic_ms":496557,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=14.80 hp=46 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":519,"t_monotonic_ms":498061,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=16.31 hp=46 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":520,"t_monotonic_ms":498061,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=16.31 hp=28 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":521,"t_monotonic_ms":499757,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=18.00 hp=28 qi=36 stage=1 shield=0
+[AscensionAudio] samples=47984640 peak=0.5023 rms=0.02814
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":522,"t_monotonic_ms":501261,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=19.51 hp=28 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":523,"t_monotonic_ms":501262,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=19.51 hp=10 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":524,"t_monotonic_ms":502958,"event_type":"audio_triggered","event_key":"warning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:warning"}
+[Ascension] warning_normal time=21.20 hp=10 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":525,"t_monotonic_ms":504462,"event_type":"audio_triggered","event_key":"lightning","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lightning"}
+[Ascension] lightning time=22.71 hp=10 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":526,"t_monotonic_ms":504462,"event_type":"audio_triggered","event_key":"damaged","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:damaged"}
+[Ascension] damaged time=22.71 hp=0 qi=36 stage=1 shield=0
+[AscensionMedia] {"schema_version":"gamefactory3a.media_runtime_event.v1","seq":527,"t_monotonic_ms":504462,"event_type":"audio_triggered","event_key":"lost","trigger_source":"gameplay","playback_call_issued":true,"asset_path":"AudioClip:lost"}
+[Ascension] lost time=22.71 hp=0 qi=36 stage=1 shield=0
+[AscensionAudio] captured E:\AI项目\Unity\Ascension\Docs\Evidence\t07-mix-lost-20260925T062053.wav
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [2.0 KB-4.0 KB]: 120035 frames, [4.0 KB-8.0 KB]: 2 frames, [8.0 KB-16.0 KB]: 1578 frames, [16.0 KB-32.0 KB]: 507 frames, [32.0 KB-64.0 KB]: 26 frames, [64.0 KB-128.0 KB]: 9 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.0 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 18]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 12.8 KB
+      Overflow Count 4
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 16]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 27]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 17]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 14]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 31
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 20]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 30]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 26]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 21]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 25]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 29]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 13]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 32
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 28]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 22]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 2.7 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 23]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 4.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 15]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 24]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 12]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 19]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.5 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 259 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 3109
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 122158 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 29.5 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 122158 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 21.4 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 1
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 122158 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 27 frames, [256.0 KB-0.5 MB]: 122131 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 266.3 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 8
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [2.0 MB-4.0 MB]: 122158 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 3.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [32.0 KB-64.0 KB]: 122157 frames, [64.0 KB-128.0 KB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 120.1 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 1.3 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 122158 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 6.8 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 122158 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
