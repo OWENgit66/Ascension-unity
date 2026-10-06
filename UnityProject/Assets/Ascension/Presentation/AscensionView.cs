@@ -165,20 +165,6 @@ namespace Ascension.Presentation
                 GUI.Label(new Rect(1078,824,460,28),"WASD 移动 · 鼠标镜头 · Esc/P 暂停",small);
                 if(phaseFlash>0) GUI.Label(new Rect(260,120,1080,60),s.Stage==0?"走出预警 · 拾取青色灵气 · 为技能留有余量":s.Stage==1?"连环雷来袭 · 保持移动，雷后补气":s.Stage==2?"预测圈须转向 · 封路电场须绕行 · 珍惜灵气":"最后九道神雷 · 活下来，突破金丹",text);
                 if(toastTime>0) GUI.Label(new Rect(380,642,840,48),toast,text);
-                int warningCount=0;float soonest=float.MaxValue;
-                foreach(var h in s.Strikes)if(!h.impacted){warningCount++;soonest=Mathf.Min(soonest,Mathf.Max(0,h.warning-h.age));}
-                if(warningCount>0)
-                {
-                    var warningBox=new Rect(52,84,270,52);Box(warningBox,new Color(.02f,.045f,.065f,.82f));
-                    GUI.Label(warningBox,"雷劫预警 · "+warningCount+"处\n最近落雷 "+soonest.ToString("F1")+"s",new GUIStyle(small){fontSize=17,alignment=TextAnchor.MiddleCenter});
-                }
-                foreach(var h in s.Strikes)
-                {
-                    if(h.impacted && h.kind!=StrikeKind.Blocking)continue;
-                    var p=view.WorldToViewportPoint(h.position+Vector3.up*.25f); if(p.z<=0) continue;
-                    string label=h.kind==StrikeKind.RandomGround?"随机雷 · 预警":h.kind==StrikeKind.Blocking?(h.impacted?"电场 · 绕行":"封路预警"):h.kind==StrikeKind.Predictive?"预测 · 已锁定":h.trackTime>0?(h.locked?"◎ 已锁定":"⊕ 追踪中"):h.kind==StrikeKind.Chain?"连环雷 · 预警":h.kind==StrikeKind.Divine?"九天神雷 · 预警":"落雷 · 预警";
-                    WorldWarning(h.position+Vector3.up*.25f,label+" "+Mathf.Max(0,h.warning+(h.impacted?h.lingering:0)-h.age).ToString("F1"));
-                }
             }
             if(s.Status==RunStatus.Playing) return;
             DrawCultivationMenu(s);
