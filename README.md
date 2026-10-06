@@ -9,7 +9,7 @@
 ## Quick Links
 
 - [Gameplay 与当前画面](#gameplay)
-- [Windows 下载](https://github.com/OWENgit66/Ascension-unity/releases/tag/v1.1)；[本地构建与 Release 准备](Docs/ReleaseChecklist.md)
+- [Windows 下载](https://github.com/OWENgit66/Ascension-unity/releases/tag/v1.1)
 - [Design Case Study：打破绕圈策略](Docs/PortfolioCaseStudy.md)
 - [Game Design](Docs/GameDesign.md) · [Playtest](Docs/Playtest.md)
 - [Source Code / Build Guide](Docs/BuildGuide.md) · [全部文档](Docs/README.md)
