@@ -1,0 +1,666 @@
+[
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/package.json",
+    "sha256": "7ddb8d911bfaf87181c2bc9aa3c35b46548f9b703c705af23694b3d107a5a3fa"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/package.json.meta",
+    "sha256": "85dbeadf7d9af7007e1e8bc1fc6f7ea5413263b2a48bc0a462eeea885e2ab460"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControlBinding.cs",
+    "sha256": "dfbac118033701b21ef9ff47c2510431c34ccbd7405f393d3059726f495188e0"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControlBinding.cs.meta",
+    "sha256": "4400836b82a40d5109a51a97c7a3b446f9c59c81318c0f7f6f90d491ada3f200"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControllerState.cs",
+    "sha256": "8c0951d9ecf298a29c13a48675345b7b50fd963b531119cbb51658c3d6906ef2"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControllerState.cs.meta",
+    "sha256": "90dba56725d1435de0a1184297b33a7ef1ce8e4e5d37e55f138de38542d477b2"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControlMode.cs",
+    "sha256": "58d0b8ef09ed8caf9a0e496edfc10b172d6bdd9df96c0dcfb78d38c43538a4b8"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameControlMode.cs.meta",
+    "sha256": "37eb1ed075d45452635cec1098bc87c0010eb2f74536bb2ea87df254e4ddb758"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameEntitySnapshot.cs",
+    "sha256": "6812dfa3099ee66c27677bdbb57c84ab3de83047d6b4f32f1ef7d25a4aa92899"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameEntitySnapshot.cs.meta",
+    "sha256": "81b5b6e00870b1d6d35da1f852477e5aa2d352941fbc1be7fd0d5c3d70be58e0"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameEntitySpawnRequest.cs",
+    "sha256": "78ec68fd0a6f7d8c57289815c6e5d5ad755527944d5113e6eb5160821597469b"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameEntitySpawnRequest.cs.meta",
+    "sha256": "ff5ff87a5aa2c6257dd27a622f6fba75fc69caea8b405c67c895a1b207005b5d"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameIdentityComponent.cs",
+    "sha256": "338049cc96c14608527792f010606becafa7bc38a9f2112df7431e96f439182d"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameIdentityComponent.cs.meta",
+    "sha256": "41bb5df05dd106c93f6503a8539717cc0dd91b456047d9505042281c6593fc75"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameLocomotionState.cs",
+    "sha256": "6b4b0974663d85745ea66b0daa0d96e7cac2743ad4ddbb645ee3d3b107d202a6"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameLocomotionState.cs.meta",
+    "sha256": "6fa9541d79f342cc48ee2765c4ed1c343ad9b72934a9ff9b86c7f594b117fd8f"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameMediaDirector.cs",
+    "sha256": "ee123d76cb7a113f3f3228eab40b5c35e60d10f84819ce80b5c0b220ea019b3b"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameMediaDirector.cs.meta",
+    "sha256": "8492e5bd81c9232f2ab2f164cb78ebe4d954ec8561b06c6d7751bb7976b6c9af"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameParticipantInfo.cs",
+    "sha256": "42a5186dc3599508705e7f4752882dcd31bb008d3694c37b84bdfe36c22b0d79"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameParticipantInfo.cs.meta",
+    "sha256": "d7cb34a42815adacc5459c396364b9b2e656592a9ea880477e546a4587ab0468"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntime.asmdef",
+    "sha256": "79a4f6b09aae70e4659dda75277572a6f8a2dce494a32e0e69fd41b57ca95db2"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntime.asmdef.meta",
+    "sha256": "b96e8b5fb3c099323379ae5686c850293b29f58c4188df511cdb3f4b3209e2c0"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeEntityComponent.cs",
+    "sha256": "734e8e99aaa5ae60104b5f268e74e1717de9e68c114b3242cf463e413f335754"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeEntityComponent.cs.meta",
+    "sha256": "671cbe8463421a0ab0fe8ae3ceb9bdbdf6dabee1fc93eb55a0a88e96de2b3e80"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeInputReceiver.cs",
+    "sha256": "fba0d6c751ec9d0a8c03df15e26f026264e224c8811c0cd21c4dd41b97464d21"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeInputReceiver.cs.meta",
+    "sha256": "8c11eadaabd5a3db1323f71825d5de5300a6208a84c8caf9f740d39d0ac53df8"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeInputState.cs",
+    "sha256": "916f6d6d1ff1276240db863e273029eb2347fd1970b3a3f271be9881adc7b4b5"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeInputState.cs.meta",
+    "sha256": "f3afddc0e31b1c8b6f8139d4a4220a0b9a3f299d831750abbfc423795edd418e"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeSubsystem.cs",
+    "sha256": "713bb1de9c3d8abb6a26d2b1801c1b4a545930e203f2236979beaeba110ecf03"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameRuntimeSubsystem.cs.meta",
+    "sha256": "67d53622a2d156f37ed0cf529dceb5a56729b9e3146ca83040cbf144edcb46d9"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameWorldSessionSubsystem.cs",
+    "sha256": "997e93314f105d075df26555318c299d0eb3ec001914a829da8b817c0a8936b0"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/A3GameWorldSessionSubsystem.cs.meta",
+    "sha256": "3fa1a57d0c6ac52151bff69c18cd4a6c70614c3af23931895ec3cd85a7b5910a"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameControllableEntity.cs",
+    "sha256": "d31c020b80ae5d8140de8cee95d2e1fe50955615a38569f141eefe765acb032d"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameControllableEntity.cs.meta",
+    "sha256": "5db6c33190ad55a922482c76ac49fb056aab795f53479ef7c513c5700f7c94b9"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameEntityFactory.cs",
+    "sha256": "8f0be57a4f23af3c822a6bd718ab658efe7770e5ce588822b059848ff6a83550"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameEntityFactory.cs.meta",
+    "sha256": "c6efa9d9c73952af69fca36a2afef10f638f3c9f98de63b82997187d35e85980"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameRuntimeMessageHandler.cs",
+    "sha256": "caad9457956205ee4ef267fd67f6847010aff5d7b6b891b32684979497c0f7c8"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime/IA3GameRuntimeMessageHandler.cs.meta",
+    "sha256": "eae8db2a88f640afc9c8639444d219c912429c69173f9fe1e87e3023a0c73e90"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime/Runtime.meta",
+    "sha256": "7fb30fed32aaa8c2d2c4e2e5f102f4343bfabd6d34de70eec4059fb69c9afb77"
+  },
+  {
+    "path": "UnityProject/Assets/A3GameRuntime.meta",
+    "sha256": "da0613b93bf31f45fc85040a1f9bb2a308fc6e51e623f80b1eceaaba10bc3846"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/PortfolioAssetImporter.cs",
+    "sha256": "ef086220ea3701c3db749dbe445457bf46b32edde99d8d510f22bac3dd5915b2"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/PortfolioAssetImporter.cs.meta",
+    "sha256": "f1821f2921fdbd22a1ceb1bc8169d6c98939b375ed9c50ae65bc60447a23f01e"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/StandaloneBuild.cs",
+    "sha256": "78cc1ff4e1ecf3bdde0dc346acb2b6598ab6af77f275c70342665d40d5e46782"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/StandaloneBuild.cs.meta",
+    "sha256": "7681194f6017183585b2410ea02847d250d727eab64271275f551a309ff207e3"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/V11Checks.cs",
+    "sha256": "f4ea43afe2d9215576750422b36408dbab22532991d8f3a879be89081992dc02"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor/V11Checks.cs.meta",
+    "sha256": "c4a5dd7ecffc04fdcbe74a164c000cab819f4a174f45a82587ec9598f26b0667"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Editor.meta",
+    "sha256": "49790ef29c9381d891da89329007bc89282cf01a418152076297daf5fa7807b4"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Ascension.Mechanic.asmdef",
+    "sha256": "7efe0d5482f81c3530d310ebfaca8ffec1d5c1f5325f272f2901b8c1e6ed89cf"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Ascension.Mechanic.asmdef.meta",
+    "sha256": "3f73c9b392c0aa9103900cd1865c6f77eb615a53e99e449390e206e07e06ca0d"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/AscensionRuntime.cs",
+    "sha256": "455d23a69621d75999dbea60fa16709f7cdbba2f4117ef40a66b4a3f567fab08"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/AscensionRuntime.cs.meta",
+    "sha256": "f5e53f673c683778fdc0c3f48a7196b89965d54e7576fb8b6d6528805c53b61a"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/FinalTribulation.cs",
+    "sha256": "805b98b27bffb74bf059ed75120375a91024b9d0a4b7b16fa4a2fb2014eed475"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/FinalTribulation.cs.meta",
+    "sha256": "d2a0aa027105b0cde1beebac7da9be2cf902e542672f316137bca230307d14c7"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Resources/Balance.json",
+    "sha256": "5ce6d0dcddc6134339b96c830ab8e2aa84a86253c40f470f47a589de056b4e1d"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Resources/Balance.json.meta",
+    "sha256": "0116b0549ee0789cce9fc2afed59e801029a7e0c97b1f3a7edc96add4b3d9463"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Resources.meta",
+    "sha256": "13fb50d77079ce4a8463603630210e59c10f12950e5aac3bdca19a6099cf620f"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Technique.cs",
+    "sha256": "f23c8e85849031034c4c2c53a4f49c8738d96d719cb403c661b3ef080bf3c87e"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/Technique.cs.meta",
+    "sha256": "f80c9e0156d28b21157307ecb3e503474065aca1984bbb502cea150ffb8a1eaa"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/TribulationModel.cs",
+    "sha256": "28289ae858731a899732b64417a7599ee0590973b6ff97661cb1eefc0cdbf39d"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic/TribulationModel.cs.meta",
+    "sha256": "2cc11d3d07d17bad541e86e552bfe6a8a7915e1ef2e444a2c5a1d1fad89ce95d"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Mechanic.meta",
+    "sha256": "da1684c18f015acdb293fa9dd2bed48d7f6e48a3547c05b7ea2302f5630578f7"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Ascension.Presentation.asmdef",
+    "sha256": "a4cee7272be9d0ecae3b8edde16221619d025354d85335034944d2b481176a7c"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Ascension.Presentation.asmdef.meta",
+    "sha256": "ac700ab03bc999a87fe95c6fff1231925a7a803e6b5170f8fd69863ac48cbebf"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/AscensionView.cs",
+    "sha256": "15dede57efff4eea31cb75f58a6ecbfa4c2b2d505ad04f7a58bdeae7aa51fd17"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/AscensionView.cs.meta",
+    "sha256": "eadb26f58fe1f5eb132099eb2eae97357fcaf6e9f5bd3e4ef3e40c35fced118d"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/CultivationPresentation.cs",
+    "sha256": "1c8fb8d6a2800e8c2bf181c8a533ca5484e2eb2890aeff502a8a128ffa77537e"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/CultivationPresentation.cs.meta",
+    "sha256": "f9f0ee6750d7fa26c9eabd1a226ac05ce7c9ec0b78ad06a27a9f2a06db5521d7"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/FinalTribulationView.cs",
+    "sha256": "04b6ab82e024c4c7119300749f427947dbcdf0abf44c49871f5bfcd3c5e664d6"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/FinalTribulationView.cs.meta",
+    "sha256": "fa1af1b75e5683f0559dce832aa54eed12ef9e8b7a78f526d1d3f23ba2bfcf64"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/PortfolioAudio.cs",
+    "sha256": "191ec336b627999efb4a99dff131791d491cbaa000b35d6ca0f62c880357e983"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/PortfolioAudio.cs.meta",
+    "sha256": "7c3d7e59f32ac6c82f799654cf3cf821a24bf3fbf29a7a3e0f1c1af4ad9dfe83"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/PortfolioWorld.cs",
+    "sha256": "63dc510fadb1bb7d7eb2440be4b760fcd496b0750a2c9bab34c845619926fca2"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/PortfolioWorld.cs.meta",
+    "sha256": "f95345fa67e7615fa5cec1a014bff209fa4ce14fd51a007a9c3110ca19a41208"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/CloudSea.png",
+    "sha256": "d8098932592bdab7a78c642c0e1c8bd1068857a42405f59a2fe717f3363385c4"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/CloudSea.png.meta",
+    "sha256": "bcdc41726e89a2dc213bcbb6dea520d740909f5c62bb0594801e077e029223ac"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/Cultivator.fbx",
+    "sha256": "3780274c2216ecfc939ea87d18606e7c6760167ae5c5e3a075c57231d5d9ad37"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/Cultivator.fbx.meta",
+    "sha256": "f7521b7b9219bdfa46f454dd7dbe669363b7f2ff78dade81911fc552805ecfd8"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/Cultivator.png",
+    "sha256": "1f4f7b45373c3b2b125c6c35bc8b3ebe8c31801e78ca13285c04416f2f2950f8"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art/Cultivator.png.meta",
+    "sha256": "8e97f67d105cdaf3cd2dfd02d6c6bd2a88b9c350512f11be0dd58844a7d19195"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Art.meta",
+    "sha256": "dba9347585adccbe8722c7a6d227f5fde96a5785389f9b2aa47d6823da3aea73"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_earth.ogg",
+    "sha256": "36b4ea107222d073c67ca64dde26944975609202d5090b2f2021213c1a7e35cd"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_earth.ogg.meta",
+    "sha256": "4c5892db35f31f0c072d60657d255196e1eb0e4dc71007e1e4769c2dc345d64c"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_fire.wav",
+    "sha256": "25b73ca327d08b1e5345acbe30a5ffff3085a522dbd436f288626b9f10c65b10"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_fire.wav.meta",
+    "sha256": "c62ae97666384a6c8f215783f33e9cbf71a0dd3fb69f0cf9726654d28be8ffa9"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_wind.wav",
+    "sha256": "489b61d8e4a5eb102f2c7b2d29cff4496ce7d5afe2991763a8cfd296e9a46386"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/active_wind.wav.meta",
+    "sha256": "b64bee2e710dc47352c38ef3b74e0b1e42b7a11e67e46a3d379047667d5c942c"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/damaged.wav",
+    "sha256": "b42333682694491d4f0640c9a0f01915e100cb52ae97ccf584bbe84fe3d333c9"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/damaged.wav.meta",
+    "sha256": "e549cf2adc1dd673261eb42218e640a0976a27e035c28f0b541389297052881b"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/dash.wav",
+    "sha256": "7660ad4da07f0fd843ea2e0143c4f23d9d5a1494a721fdefc07129004211aaa6"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/dash.wav.meta",
+    "sha256": "d7ff80b1cd3883f43de484babbe3681344fa8db4582f6343bc477dc826d733c4"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/element.wav",
+    "sha256": "a4da2e8555938e121309ea9a52d51e706f1d70b55216888c268e5558c24aebee"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/element.wav.meta",
+    "sha256": "6668fa81fc0e09db54fee73d6fced06a32648b37d59d4c32b81bedc0e0919b47"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/lightning.wav",
+    "sha256": "5ba215f5e55445e21b4f047e19376dc94f15e4ae105bbf947e7a38ca9f974459"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/lightning.wav.meta",
+    "sha256": "96e814e2fdb138c19334a9d5a1590b44354864d5083e5e02c6f49f9356e7ee9e"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/lost.wav",
+    "sha256": "4d629eaac1cee20299a8bbef4c4502e19cd7f6a06c6f662d49729b040e5d2116"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/lost.wav.meta",
+    "sha256": "e18b41ec714a0eda596678fca6f4dc17d3a0263001cadfc9d38849f6e6ae7dce"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/qi_collected.wav",
+    "sha256": "f1965aef71654373af0818ec109222b376cf68cfb8e4a5af26a522e700c0e86f"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/qi_collected.wav.meta",
+    "sha256": "7007ce22c215032e8df6fe6fee0dcf9d49d0044507f6efbb75b58fbcbfbbfcc3"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/shield.wav",
+    "sha256": "229eb8777cd30f4bc57d0c1fac1790c6ca227e92c6c3566dcc15475a114fc1b5"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/shield.wav.meta",
+    "sha256": "2d55339a6f0d81b185248ec197deee3e705964e0c8295b42da267158b2b14007"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/shield_absorbed.wav",
+    "sha256": "ba35a2bb1a90b1893af8e08d7f41900017a812c7b78453114f926dab7de903bf"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/shield_absorbed.wav.meta",
+    "sha256": "beda1d0249973da96907bbb99a36c43e85f617f73e1edeb46e0b362be024a1e3"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/stage_changed.wav",
+    "sha256": "9c40b47b0dd4567d535d8252ed899af2ff5762e6479a5032f0eccc98f032652e"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/stage_changed.wav.meta",
+    "sha256": "4cb7cd4c48e9815ed39421607bc74c552d426180985ff5c78aecc7b2b22b2664"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/started.wav",
+    "sha256": "01e5d86295f1bddea886320b04aa3f24727719b8758934ded280217a49deb7bb"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/started.wav.meta",
+    "sha256": "b3c81f4e6dacca27e82b19b7558ff5f84be355d6c890286bd9d5e40f59785b33"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/warning.wav",
+    "sha256": "a6dae096c4bf6274cd86146ade73f3b494e3062c68ad9c261e9246dacd2ad2fd"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/warning.wav.meta",
+    "sha256": "bc678e89f04c8b146d869ba8306b655584c6c2412e927f66e8f705e5521110a0"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/won.wav",
+    "sha256": "6094578047fcdd98c25770efac0aa8406020f1847703bc68803ddcfe6b74cf58"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio/won.wav.meta",
+    "sha256": "8e88da87fc1364886c35301f1df6a257602634cf0ce33981f00e850b713d910f"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Audio.meta",
+    "sha256": "8a9607b6cc32e448f97c1562685470fc0fb1cf3b27b4f0b38811e3569f0b47ee"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Aura.shader",
+    "sha256": "238bb768134a0ae62554f978fab764a214ea1faa392e26e46fb2790cd6efac97"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Aura.shader.meta",
+    "sha256": "aa60e70bcc2a4d8c9388c25c3a6aacf31f27afd72a2b0596a050614f4a11a79a"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/CloudBackdrop.shader",
+    "sha256": "6ade2bbe61fc8a49e00a463f12b4d795bb54164157cd41d9fdcde54c87b4b9a7"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/CloudBackdrop.shader.meta",
+    "sha256": "36f31f4e1d20977e2969bccfa2ef1f8be53319f231928e8aa41714723ac45c03"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/PortfolioSurface.shader",
+    "sha256": "9f1eb6de96c614f9b39af8a5506eaf809d2207081c67cf0f7a1032971f95ab48"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/PortfolioSurface.shader.meta",
+    "sha256": "9eb51b46123bf18557192bca3d28bbb51e1091fd84973b35e70cfc070518d4cb"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Telegraph.shader",
+    "sha256": "6e470e27a332e31aa26dd4a29ce8bbcc997a7245fd1eef62647cf5c200ad0074"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Telegraph.shader.meta",
+    "sha256": "93907f5627f5af1c15a48b9666903d88e1a095f0c0c9c02aba44afd3c39c7cd8"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Whitebox.shader",
+    "sha256": "b3d90eb7a3a01abe886b79280c7c398882fc9841cadca6fe36aab60a87015708"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources/Whitebox.shader.meta",
+    "sha256": "ef408011ef2ad2b04265dba46f87dbc36746baf1c32e36e94fcffd5209d94041"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation/Resources.meta",
+    "sha256": "1999acd5e829215caabd028f4de23ea9621d08dd5cdc04de31e35da205ac7bd1"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension/Presentation.meta",
+    "sha256": "b90324d57af4674eb625b1b1bc9a560d75c43bcca6c11b9788e85d4ab6605725"
+  },
+  {
+    "path": "UnityProject/Assets/Ascension.meta",
+    "sha256": "682be3e6897bbc75aa9d8664eb5ed71afc63498ba66f6e1c5e61fac396595ad4"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Materials/Environment/ArenaWalkableGround.mat",
+    "sha256": "46b1c7fd100a9e66c92aaf2425c549dd958591c79c2432580ba2808123d3d8d9"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Materials/Environment/ArenaWalkableGround.mat.meta",
+    "sha256": "4c6440b3758f6ed55db4c30bb5c30e90dd75d42f4c0b16b2e280cec886ed06dd"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Materials/Environment.meta",
+    "sha256": "f30596156742e2d9aa8ea8bfff8c839f3cb5fec7ba3f96e324596888ae8da5d2"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Materials.meta",
+    "sha256": "3bf8af69c800b729aba4fd89a4d424a55429892db21c5fbe83aecb35b8858f9b"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Meshes.meta",
+    "sha256": "fc191e21f39955abd6f019a95fe173b13c16e37ed4d5cae3a597dcf8bb4c1de0"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Prefabs.meta",
+    "sha256": "e09420972325c7761a8d67ba215479b4fcacf41cd455b5592b8321bdb7918b71"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Rendering/FPSArenaRenderer.asset",
+    "sha256": "1832a077aaf9d9af65f82647ead7c93e2d9511f26f174407d80c686a6a57990a"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Rendering/FPSArenaRenderer.asset.meta",
+    "sha256": "0986a93595c7e9833c433989be397b9a27f724a45c6258326a9156b1ddf61e9e"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Rendering/FPSArenaURP.asset",
+    "sha256": "233775ac5418de54f3f088336268509e24193f14428ef3fd9a6b350a20919ba7"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Rendering/FPSArenaURP.asset.meta",
+    "sha256": "299b5096060e045cbea3ff4f1b020be02502407935748cfc482580d87e1c64cd"
+  },
+  {
+    "path": "UnityProject/Assets/Generated/Rendering.meta",
+    "sha256": "ae1f820fa90535d2b9fbcff1dac43ed162ffd06d41a5278e6773c727e5d4b908"
+  },
+  {
+    "path": "UnityProject/Assets/Generated.meta",
+    "sha256": "c445c22ff639e4f0061134bb5b782167e8dacb0a0556cd708c638c8493f87245"
+  },
+  {
+    "path": "UnityProject/Assets/Scenes/Ascension.unity",
+    "sha256": "50d70734282becf007f03fe53fb879b3d055f3893e3f6c5c36b21a5f1e48bffe"
+  },
+  {
+    "path": "UnityProject/Assets/Scenes/Ascension.unity.meta",
+    "sha256": "67f0348c3bdab204f679e63d1b1d54f5f34cb50c8de2e4b727caa20496a92a46"
+  },
+  {
+    "path": "UnityProject/Assets/Scenes.meta",
+    "sha256": "e141924336cb33dd31cfa7b9cb18d02a98572005b96d23f9de8c1ca93fb41ad9"
+  },
+  {
+    "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset",
+    "sha256": "bdac5e6c90cf14fc41a2ee0152632b26464873a2c46926eff322ba060f4dd5c5"
+  },
+  {
+    "path": "UnityProject/Assets/UniversalRenderPipelineGlobalSettings.asset.meta",
+    "sha256": "bf2cccce4466801e7dc962b86a5039e87678038f80e884436da73a2f97816103"
+  },
+  {
+    "path": "UnityProject/Packages/manifest.json",
+    "sha256": "c1f324b08de0f39cc9779f94a92bcadc15557aa1f6376a696f0c227d8323e2c0"
+  },
+  {
+    "path": "UnityProject/Packages/packages-lock.json",
+    "sha256": "a33f51d31b3af2a09c54e223feaffa1549bb8f151197fceeeddc6a35cfc9ce06"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/AudioManager.asset",
+    "sha256": "9a554916fe138ebcad8443ee9b079363ecc72795c39d0e80f5f7ca99e2c6f5e7"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/ClusterInputManager.asset",
+    "sha256": "40e65dd214bf254955d2c8829ca8ce2130fd3510485560ce012e9a1ddd93e623"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/DynamicsManager.asset",
+    "sha256": "62fd35da36080a098d3e9f90cf4af6c655fe582091c33e505b812cf9aa36fee1"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/EditorBuildSettings.asset",
+    "sha256": "e3fa26ea7fdda36699e64a296f9feee902cbc4c4c42d51fb204d998de2cbbc0d"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/EditorSettings.asset",
+    "sha256": "6f8761b516f06ff2f0373b6310571cf7951f63afb86c56bfd7be832e06a9987b"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/GraphicsSettings.asset",
+    "sha256": "bf84a39004389ca03fcdb742052ad2d422190a41a6954f0e63c71cb871f7d44c"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/InputManager.asset",
+    "sha256": "60c83ae48e29a782141f99032eb38e803d18475124ff5224fbd1fd81b233f051"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/MemorySettings.asset",
+    "sha256": "1e8379a461b10ae09f3f696911088c16875d63e87ed5f2d95df9e1892703f9fd"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/NavMeshAreas.asset",
+    "sha256": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/PackageManagerSettings.asset",
+    "sha256": "c4a6d0b1616d3c38d6aa850b30ca67f963ef774ab7a1ccaf0a767320f7544c6a"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/Physics2DSettings.asset",
+    "sha256": "531861618163b01648a075414f6e864506ad8fe0a0d4d0096aa1fbbfcd3937dc"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/PresetManager.asset",
+    "sha256": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/ProjectSettings.asset",
+    "sha256": "63b10ad8d748679458bc45f3bf8153d281ae0714735f7656a0671565f93b45af"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/ProjectVersion.txt",
+    "sha256": "b51164d22c4d2716ba8aee7f0b59d6b7dd0efa8552fd1db2a8c3b123fae3a1ec"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/QualitySettings.asset",
+    "sha256": "94ec45d10eeaff9d6706e50011f0597665572096fb1fbeae6ebe2751d04a9972"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/SceneTemplateSettings.json",
+    "sha256": "5baf593374ad67246277a435d8d0ded7167696eef6e05d2d245670e490625d8c"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/ShaderGraphSettings.asset",
+    "sha256": "733eb0b08f2d9e57a51cef99c450140b18ddd101065cad1b9cde9330899ed8c7"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/TagManager.asset",
+    "sha256": "8e18b1c820e9c09e16bbd1f1b7842e9fb3b0158a0921b0964e0b8fa12c6e2c01"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/TimeManager.asset",
+    "sha256": "1a83e54adbbda7c9f4851103a0c6ab7f6448a3343d4ea5b7620452fa08416ecd"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/UnityConnectSettings.asset",
+    "sha256": "d6034acbef6c9e3179866486c31eab81fcbe5e7ed350ce71e0fa2b1449b77109"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/URPProjectSettings.asset",
+    "sha256": "3e9d9f824875297ef6b9315fa7a3ac7ec1b047042395404a23c368fc971a8f3e"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/VersionControlSettings.asset",
+    "sha256": "e7bda45bf7a394745fee1316e6c71fa676004d591ad1f3aa247fd3e4ceb86071"
+  },
+  {
+    "path": "UnityProject/ProjectSettings/VFXManager.asset",
+    "sha256": "3f31266c7c1910447586e71b041dabd58d8371715ac3142d3e38ace46121f4ab"
+  }
+]

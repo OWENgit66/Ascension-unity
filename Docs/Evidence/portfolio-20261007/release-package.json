@@ -1,0 +1,13 @@
+{
+  "file": "Ascension-v1.1-Portfolio-Windows.zip",
+  "sha256": "5e26cc627964956ba6a5d90fa9ef0cd7b9869a40c229ae95cd227f0754657015",
+  "bytes": 34048697,
+  "entries": 154,
+  "crcAndPayloadHashCheck": "passed",
+  "published": false,
+  "excluded": [
+    "Burst debug DoNotShip folder",
+    "Unity caches",
+    "raw logs and test audio"
+  ]
+}
