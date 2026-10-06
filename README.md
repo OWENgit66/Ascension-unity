@@ -1,112 +1,99 @@
 # 渡劫 · Ascension
 
-**V1.1 R1 · 已完成的 Portfolio Demo · 独立Unity项目**。基于已验收版本补强雷击预警并加入地图随机雷，保留原玩法架构、资产与功法。核心开发已收官；修改后的真人盲测和展示GIF仍待补充。源码打开方式见下文，历史独立化过程见 [IndependenceReport](Docs/IndependenceReport.md)（其360秒验证为历史版本）。
+**Unity 3D 修仙生存玩法 Demo｜Game Design Portfolio｜AI-assisted Development**
 
-本仓库提供完整Unity源码、游戏资产、策划文档、截图和精选测试记录；不包含Windows可执行文件、Unity缓存、本机原始日志或测试混音录音。上传与目录说明见 [Repository Notes](Docs/RepositoryNotes.md)。
+玩家在 **3 分钟**内观察天劫预警、规划移动路线，并在 Dash、Shield 与有限 Qi 资源之间持续做取舍。
 
-一个小型修仙生存游戏策划 Portfolio Demo：在云海之上的渡劫台，观察天劫预警，规划路线，在御剑 Dash、护体 Shield 和灵气补给之间作选择，存活三分钟并渡过九天神雷。
+这是一个个人主导、Codex 辅助实现的小型玩法作品集。重点看：**如何让“持续绕圈”不再解决所有危险，以及如何用补给和技能成本制造路线选择。**
 
-目标平台：Windows x64；Unity 2022.3.62f3。单局正式时长 **180秒（35/40/45/60）**，开发快速模式90秒，共用同一套规则。范围保持单人小型竞技场，没有NPC、剧情、装备、背包或开放世界系统。
+## Quick Links
 
-## Gameplay Screenshot / GIF
+- [Gameplay 与当前画面](#gameplay)
+- Windows 下载：尚未发布；[本地构建与 Release 准备](Docs/ReleaseChecklist.md)
+- [Design Case Study：打破绕圈策略](Docs/PortfolioCaseStudy.md)
+- [Game Design](Docs/GameDesign.md) · [Playtest](Docs/Playtest.md)
+- [Source Code / Build Guide](Docs/BuildGuide.md) · [全部文档](Docs/README.md)
 
-<!-- Gameplay GIF 占位：真人试玩后补充15–30秒片段，展示转向、取气、Dash与护盾取舍。 -->
+## Highlights
 
-![T07 正式场景](Screenshots/t07-portfolio-gameplay.png)
+- **资源取舍：** Dash 与 Shield 共用 Qi，主动补给与保留技能预算形成风险收益选择。
+- **策略迭代：** 用预测落点、前方封路和偏离当前路线的 Qi，针对固定方向绕圈；保留观察、转向的步行解法。
+- **测试驱动：** 比较操作策略，分开记录模型检查、原生自动输入和开发者反馈，不把它们当作真人盲测。
+- **AI 辅助交付：** 人定义问题、范围和验收；Codex 辅助实现、Debug、测试与文档，交付可打开的 Unity 源码。
 
-原T07精选截图见Screenshots/；本次独立化证据见Docs/Evidence/。GIF仍待录制，截图使用实际Build画面。
+## My Role
 
-![Final散花与火区：提示避让修复后，同构建Fast补拍](Screenshots/t07-fixed-bloomfire-warning.png)
+**我的贡献：** 玩法目标与范围定义、核心循环和系统取舍、需求拆解与优先级、Playtest 反馈、验收标准及迭代判断。
 
-T07已完成；当前R1正式180.004秒、九雷通关已验证（HP65 / Qi16），Fast90秒通过，0错误0警告构建，完整记录见 [Playtest](Docs/Playtest.md)。本地重新构建后入口为Builds/Windows/Ascension.exe（分发时保留整个Windows文件夹）。本轮采纳用户真人试玩反馈；修改后的真人盲测仍pending，自动输入与画面核对不冒充真人盲测。
+**AI / Codex 辅助：** C# 实现、Debug、自动输入测试、日志核验与文档整理；Unity MCP / Computer Use 用于工具操作与验证。不宣称所有代码由本人手写，也不估计没有依据的 AI 代码占比。
 
-普通与随机雷先显示1.3秒地面圈和小型HUD倒计时，再同步落雷、音效与伤害；追踪雷0.9秒锁点，第1.4秒攻击。随机雷不专门瞄准玩家，18伤害、半径2，S1→S3的生成尝试为每4.5秒1个→每4秒最多2个→每4秒最多1个；Final仅在A段空档低频出现，忙时退让。具体限制见 [Balance](Docs/Balance.md)。
+**复用内容：** GameFactory Runtime、第三方角色与音效；背景由 OpenAI imagegen 生成。详见 [来源与许可](THIRD_PARTY_LICENSES.md)。
+
+## Gameplay
+
+当前源码：**V1.1 R1 + 常规雷击去文字调整**。Formal 180 秒，Fast 90 秒；地面圈表达常规雷击范围和时机，阶段名称、HP/Qi、技能状态与特殊天劫提示继续保留。
+
+下面是本轮当前 Windows Build 的 **20秒真实连续终劫片段**：玄武、正式模式、自动输入策略 E。约5fps采样，无音轨；未生成画面、修改规则或加速，不代表真人试玩。
+
+![当前Windows正式模式终劫实机](Screenshots/portfolio-20261007-gameplay.gif)
+
+[录制说明](Docs/GameplayCaptureChecklist.md) · [素材版本索引](Screenshots/README.md)。本地 Windows ZIP 已准备，GitHub Release 尚未上传；下载入口将在实际发布后添加。
 
 ## Core Loop
 
-**看预警 → 选路线 → 决定步行/Dash/Shield → 冒险取气 → 为下一波预留资源 → 跨过四段难度 → 胜利或复盘重开。**
+**观察预警 → 选择路线 → 步行 / Dash / Shield → 主动取气 → 为下一次危险留预算 → 存活胜利或复盘重开。**
 
-HP归零失败。正式三分钟存活胜利，Final最后有九道神雷；重开保留所选功法并重置本局状态。
+HP 归零失败，存活至正式计时结束胜利。终劫包含九道神雷；Restart 重置本局状态并保留所选功法。
+
+## Design Problem & Iteration
+
+早期持续绕圈能避开大部分落点，使技能和资源可被忽略。迭代通过预测雷、封路及风险补给改变玩家的移动任务，而不是仅提高伤害或数量。
+
+V1.1 Fast 的已留档自动测试中，固定绕圈约 **29.5 秒失败**，观察预警并组合技能的策略完成 **90 秒**。这不是玩家通关率，也不是严格单变量实验；精确观察的无技能策略在历史版本也曾通关。[查看完整案例与证据边界](Docs/PortfolioCaseStudy.md)
+
+## Systems
+
+| 系统 | 玩家需要作出的选择 |
+| --- | --- |
+| 普通 / 随机 / 连环 / 预测 / 追踪 / 封路雷 | 识别落点、锁定和连续危险，改变方向或路线 |
+| 风、火、地、水、散花雷与球形闪电 | 判断方向、持续危险区、裂缝和安全夹角，避开移动障碍 |
+| Qi + Dash / Shield | 现在撤离、承伤取气，还是保存下一次技能预算 |
+| 青云 / 玄武 / 九霄 | 分别偏机动、防御和补给；每种都有费用或时机代价 |
+| 四阶段节奏 | 教学 → 路线与资源压力 → 复合威胁 → 终劫综合测试 |
+
+具体规则见 [GameDesign](Docs/GameDesign.md)，当前数值以 [Balance.json](UnityProject/Assets/Ascension/Mechanic/Resources/Balance.json)为准，[Balance](Docs/Balance.md)提供易读表格。
 
 ## Controls
 
 | 输入 | 行为 |
-|---|---|
-| WASD | 相机相对移动 |
-| 鼠标 | 镜头方向 |
-| Shift | 御剑 Dash，消耗Qi并进入冷却 |
-| Q | Shield，消耗Qi，限时吸收伤害 |
-| P / Esc | 暂停/继续 |
-| 菜单按钮 | 开始、Restart、功法选择、180/90秒模式、音效开关 |
+| --- | --- |
+| WASD / 鼠标 | 相机相对移动 / 镜头 |
+| Shift / Q | Dash / Shield，消耗 Qi 并受冷却限制 |
+| P 或 Esc | 暂停 / 继续 |
+| 菜单按钮 | 开始、Restart、功法、Formal/Fast、音效 |
 
-靠近青色灵气珠自动收集。HUD显示HP、Qi、阶段、剩余时间、技能费用/冷却/吸收余量、功法和当前天劫。预警同时提供形状、文字与倒计时，颜色不是唯一信息渠道。
+靠近青色 Qi 珠自动拾取。白紫色球形闪电是危险，不是补给。
 
-## 天劫与可读性
+## Build
 
-普通雷、连环雷、追踪雷、预测雷与封路电场形成基础压力。蓝青/紫色预警与瞬时白色雷光区分“将发生”和“已发生”；追踪落点锁定后停止跟随。V1.1在原四种最终天劫上加入水区与移动球形闪电，部分组合提前到第二/三阶段：
+使用 **Unity 2022.3.62f3** 和 Windows Build Support，Unity Hub 添加 `UnityProject/`，打开 `Assets/Scenes/Ascension.unity`。菜单 **Ascension > Build Windows Release** 输出 `Builds/Windows/Ascension.exe`。
 
-| Final天劫 | 阅读与应对 |
-|---|---|
-| 风劫 | 青色箭头和方向流线，改变站位；逆向移动/Dash，Shield不能阻止风推 |
-| 火劫 | 暖色预警、持续地面灼烧区与低矮火焰，离开并等待区域结束 |
-| 地劫 | 金褐长条预警、裂纹和碎岩，横向离开路径 |
-| 散花雷 | 紫色中心爆点和放射线，避开中心并选择安全夹角 |
-| 水劫 | 蓝色水面与涟漪；0伤害，步行70%速度，Dash脱离，Shield不能清除减速 |
-| 球形闪电 | 白色实体、紫色光晕；路点移动、接触伤害、最多3个，区别于青色Qi珠 |
+无需完整 GameFactory 仓库；仍依赖随项目保留的 Runtime、Unity 和 UPM 包。源码与本地 Build 不需要 AI API Key。当前构建与发布状态见 [Release Checklist](Docs/ReleaseChecklist.md)，操作细节见 [Build Guide](Docs/BuildGuide.md)。
 
-预警范围直接来自规则模型。低亮度背景/阵纹与低矮效果让位于危险轮廓。Final控制主要攻击系统数量，保留逃生采样检查；有限测试不证明所有随机组合必然可解。
+## Testing
 
-## 三种功法
+- 本轮Windows x64构建0错误/0警告；180秒正式局完成，Launch/技能/Pause/Restart/Win/Lose基础验证通过。历史结果单独归档。
+- 模型覆盖检查、自动输入与日志审计用于核验规则；不能证明真人理解、乐趣或总体平衡。
+- 有开发者自测反馈；**独立真人盲测样本仍为 0**，修改后的体验评价待执行。
 
-| 功法 | Strength / Playstyle | Weakness |
-|---|---|---|
-| 青云剑诀 | Dash 14Qi / 2s，主动机动、及时改线 | Shield 36Qi，保命预算贵 |
-| 玄武真诀 | Shield 24Qi / 60吸收 / 2s，守势取气 | Dash 24Qi / 2.5s，频繁撤离成本高 |
-| 九霄心法 | 单颗Qi +25，主动补给与恢复 | Shield仅1.5s，需要精确施放 |
+[当前验证矩阵](Docs/Playtest.md) · [真人盲测模板](Docs/BlindPlaytest.md) · [ROADMAP](ROADMAP.md)
 
-完整数字与历史修改见 [Balance](Docs/Balance.md)。九霄沿用原第三功法的资源取舍，内部稳定id为spirit，不是新增第四种功法。
+## Limitations
 
-## Risk vs Reward / Resource Management
+小型单人竞技场，无 NPC、剧情、装备、背包或开放世界。有限安全采样不保证所有未来组合绝对可解；屏外危险、Qi 压力和三功法差异仍需真人及多种子验证。角色使用通用 Idle/Run，非中文系统需检查字体回退。
 
-Qi上限100，初始60，技能共用资源池。现在Dash离开落点，还是留气给下一次Shield，是局内反复出现的选择。部分补给位于中央、偏离当前路线或压力区域附近；最安全路线不保证持续补给。拾取与消耗均来自同一真实状态，界面没有独立假数值。
+## Credits
 
-## Difficulty Curve
+[GameFactory-3A](https://github.com/OpenDCAI/GameFactory-3A) Runtime 源码按 Apache-2.0 保留；Quaternius 角色及部分音效为 CC0，Jerimee 的 Thunder 为 CC BY 3.0，已保留署名和修改说明。云海背景为 AI 生成，非手绘原创。项目自有代码未新增整体开源授权，第三方许可不自动覆盖全仓库。
 
-| 阶段 | Formal / Fast | 主要阅读任务 |
-|---|---|---|
-| 第一重：识雷 | 35 / 10秒 | 普通雷教学，理解预警与Qi |
-| 第二重：连劫 | 40 / 12秒 | 连环/预测/封路，水雷与火簇，1个雷球 |
-| 第三重：追命 | 45 / 14秒 | 追踪、风雷与区域组合，2个雷球，资源预算与撤离 |
-| Final：终劫 | 60 / 54秒 | 识劫→组合→九道神雷综合测试，最多3球 |
-
-Fast仅覆盖时长并归一化终劫cue时间轴，不复制机制；直接启动exe默认Formal。快速模式用于缩短迭代，正式180秒单独完成验证。
-
-## Playtest Iteration
-
-最初持续绕圈能稳定生存，技能与Qi缺乏必要性。T06以预测落点和封路改变移动任务，调整补给位置；T06.5再加入四种Final天劫。固定绕圈在实测中第三阶段死亡，而读预警、改路线的策略可以通关。
-
-T07聚焦视觉语言与反馈：完整角色/动画、云海雷云、石台阵纹、不同危险表现、事件音效与HUD。实际构建曾发现角色动画覆盖导入根节点变换和背景下缘空隙，逐项修复后复测。具体结果以 [Playtest](Docs/Playtest.md) 为准（旧版历史Evidence保留在安全备份，独立验证见IndependenceReport）。
-
-**自动控制可精确读取预警，不能等同真人体验。** [真人盲测模板](Docs/BlindPlaytest.md) 已建立，真实结果仍pending；不虚构样本或通关率。[Portfolio Notes](Docs/PortfolioNotes.md) 提供面试讲述提纲。
-
-## 独立源码项目：打开与构建
-
-本目录可单独保存或移动，无需GameFactory-3A仓库。使用Unity Hub打开 **UnityProject/**，Unity版本 **2022.3.62f3**，安装Windows Build Support。首次启动等待官方UPM包与Library恢复。
-
-打开 `Assets/Scenes/Ascension.unity`，点击Play开发；菜单 **Ascension > Build Windows Release** 构建到 `Builds/Windows/Ascension.exe`。也可用标准Build Settings，Windows x86_64、关闭Development Build。详见 [独立化报告](Docs/IndependenceReport.md)。无需Python、UnityClient或API Key。
-
-目录包括UnityProject/Assets、Packages、ProjectSettings、Docs、Screenshots、THIRD_PARTY_LICENSES.md、.gitignore；Builds为可再生成产物，缓存目录不入库。发布时复制整个Windows构建目录，保留许可证。
-
-Mechanic、Presentation与场景架构沿用v1.0，玩法及Balance已完成V1.1 R1迭代；本次上传整理未修改游戏代码、配置或资产。17个必要GameFactory Runtime C#文件以Apache-2.0随项目保存，完整清单见 [第三方许可](THIRD_PARTY_LICENSES.md)。这不要求原仓库同时存在。
-
-## GameFactory-3A 来源与资产许可
-
-基于 [OpenDCAI/GameFactory-3A](https://github.com/OpenDCAI/GameFactory-3A)，Copyright 2026 OpenDCAI，Apache-2.0；原框架未修改。保留来源与原许可证，不把框架能力声明为独立原创。
-
-Quaternius角色、Kenney撞击音、OpenGameArt风/火为CC0；Jerimee的Thunder为CC BY 3.0，已署名并注明裁剪转换。术法提示音由项目原创合成，云海为AI生成。详细作品名、作者、链接、修改与许可证见 [Asset Sources](Docs/AssetSources.md)，Build随附同份说明及LICENSE-GameFactory-3A.txt。
-
-项目自有部分未新增整体开源许可证；第三方内容继续按各自许可使用，不能将GameFactory的Apache-2.0视为覆盖全仓库。
-
-## 当前边界
-
-尚无真人盲测；三功法样本不能用于通关率排名。风格化修士使用通用Idle/Run，暂未制作专用施法/受击动作。背景远山不可探索。音频有真实游戏混音证据，主观听感仍需玩家在耳机/音箱上评价。非中文Windows需要检查中文字体回退。
+[THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES.md) · [AssetSources](Docs/AssetSources.md) · [License files](Docs/Licenses/)
